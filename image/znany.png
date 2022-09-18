@@ -1,0 +1,2682 @@
+
+<!DOCTYPE html>
+<html lang="pl" region="pl">
+<head>
+
+	
+			<link rel="preconnect" href="//cookie-cdn.cookiepro.com"/>
+		<link rel="preconnect" href="//platform.docplanner.com/"/>
+		
+		
+		
+		<link rel="preconnect" href="//s3-eu-west-1.amazonaws.com"/>
+		<link rel="preconnect" href="//www.googletagmanager.com"/>
+		<link rel="preconnect" href="//www.google-analytics.com"/>
+	
+			<link rel="preload" href="//cookie-cdn.cookiepro.com/consent/52a1b17d-e5d5-4852-b793-ba27a4656b5d/OtAutoBlock.js" as="script"/>
+	
+						<link rel="preload" href="//platform.docplanner.com/css/jade-dpuikitv3-676d7ce7.css" as="style"/>
+					<link rel="preload" href="//platform.docplanner.com/css/jade-homepage-5ad7f26c.css" as="style"/>
+		
+									<link rel="preload" href="//platform.docplanner.com/js/goro-homepage-0eb2ee80.js" as="script"/>
+					
+				
+				
+	<meta charset="utf-8"/>
+	<title>Znajdź lekarza - Umów wizytę - ZnanyLekarz.pl</title>
+
+			<script type="text/javascript" src="//cookie-cdn.cookiepro.com/consent/52a1b17d-e5d5-4852-b793-ba27a4656b5d/OtAutoBlock.js"></script>
+<script
+  src="//cookie-cdn.cookiepro.com/consent/52a1b17d-e5d5-4852-b793-ba27a4656b5d/otSDKStub.js"
+  data-id="onetrust-script"
+  data-language="pl"
+  type="text/javascript"
+  charset="UTF-8"
+  data-domain-script="52a1b17d-e5d5-4852-b793-ba27a4656b5d"
+></script>
+<script type="text/javascript">
+  function OptanonWrapper() { }
+</script>
+	
+				
+	<link rel="search" type="application/opensearchdescription+xml" title="www.znanylekarz.pl" href="https://www.znanylekarz.pl/opensearch">
+
+				<meta name="description" content="Znajdź lekarza i wygodnie umów wizytę przez internet. Przeczytaj wiarygodne opinie innych pacjentów i dodaj własną. Mamy w bazie ponad 146 000 lekarzy!"/>
+	<meta name="robots" content="index,follow"/>
+	<meta property="fb:page_id" content="122601654502559"/>
+						<script type="text/javascript">
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"16d571aa6a",applicationID:"116553255",sa:1};
+newrelic.setPageViewName("homepage", "www.znanylekarz.pl");
+</script>
+	
+				<link rel="alternate" hreflang="es-ES" href="https://www.doctoralia.es" />
+	<link rel="alternate" hreflang="de-DE" href="" />
+	<link rel="alternate" hreflang="pt-PT" href="https://www.doctoralia.com.pt" />
+	<link rel="alternate" hreflang="tr-TR" href="https://www.doktortakvimi.com" />
+	<link rel="alternate" hreflang="es-PE" href="https://www.doctoralia.pe" />
+	<link rel="alternate" hreflang="cs-CZ" href="https://www.znamylekar.cz" />
+	<link rel="alternate" hreflang="pl-PL" href="https://www.znanylekarz.pl" />
+	<link rel="alternate" hreflang="pt-BR" href="https://www.doctoralia.com.br" />
+	<link rel="alternate" hreflang="it-IT" href="https://www.miodottore.it" />
+	<link rel="alternate" hreflang="es-MX" href="https://www.doctoralia.com.mx" />
+	<link rel="alternate" hreflang="es-CO" href="https://www.doctoralia.co" />
+	<link rel="alternate" hreflang="es-CL" href="https://www.doctoralia.cl" />
+	<link rel="alternate" hreflang="es-AR" href="https://www.doctoraliar.com" />
+
+				<link rel="canonical" href="https://www.znanylekarz.pl/"/>
+	
+			<meta property="og:title" content="Znanylekarz - Przeczytaj opinie i umów wizytę online"/>
+<meta property="og:description" content="Szukaj spośród 146 000 lekarzy,przeczytaj opinie, zapytaj eksperta, znajdź najlepszego lekarza w twoim mieście i umów wizytę online." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="ZnanyLekarz"/>
+<meta property="og:url" content="https://www.znanylekarz.pl/" />
+			
+<meta property="og:image" content="//platform.docplanner.com/img/pl/open-graph/og-v0.png?583464880" />
+	
+
+				
+<script type="text/javascript">
+	var ZLApp = {
+		'APICredentials': {},
+
+		'AppConfig': {},
+		'Roles' : {
+      'IS_CALL_CENTER_AGENT': false,
+			'IS_ZLWORKER' : false,
+			'IS_DOCTOR': false		},
+
+		'Routes' : {},
+
+		'Storage' : {
+			session: sessionStorage,
+			local: localStorage
+		},
+
+		'Modules': {
+			CalendarEditionPage : function() {},
+			AlgoliaIndexes : {},
+			MapsLoader : {}
+		},
+
+		'pushGAEvent': function(options) {
+			$(document).ready(function() {
+				// Universal Google Analytics Events
+
+				var layerData = $.extend({
+					'event': 'gaTriggerEvent',
+					'gaEventCategory': options[0],
+					'gaEventAction': options[1],
+					'gaEventLabel': options[2],
+					'gaEventInteraction': options[4]
+				}, options[5]);
+
+				dataLayer.push(layerData);
+			});
+		},
+    'pushHSEvent': function(eventValue) {
+		  if (window._hsq && _hsq.push) {
+				_hsq.push(["trackEvent", eventValue]);
+			}
+		},
+		"Routing" : {
+			"generate" : function(name, object) {
+				return ZLApp.NativeRouting.generate(name, object);
+			}
+		},
+		'setStorage': function(type, key, value) {
+			try {
+				var storage = this.Storage[type];
+
+				storage.setItem( key, JSON.stringify(value) );
+
+				return true;
+			} catch (exception) {
+				return false;
+			}
+		},
+		'getStorage': function(type, key) {
+			try {
+				var storage = this.Storage[type];
+
+				if (storage && storage.getItem(key) !== undefined && storage.hasOwnProperty(key) === true) {
+					return JSON.parse(storage.getItem(key));
+				} else {
+					return undefined;
+				}
+			} catch (exception) {
+				return undefined;
+			}
+		},
+		'clearStorage': function(type, key) {
+			try {
+				var storage = this.Storage[type];
+				storage.removeItem( key );
+				return true;
+			} catch (exception) {
+				return false;
+			}
+		}
+	};
+
+	// Object container for old stuff
+	window.ZL = {};
+</script>
+
+
+<script type="text/javascript">
+	ZLApp.CrmConfig = {
+		DEFAULT_CURRENCY_CODE: 'PLN',
+		DEFAULT_VAT_RATE: 23,
+		WITH_ZEROS: false,
+		PRICE_TYPE: 'net',
+		WEBSOCKET_DOMAIN: 'ws.znanylekarz.pl',
+		WEBSOCKET_TOKEN: '2c595f7e-ef38-492e-b088-73e553cf86dd',
+	};
+</script>
+
+
+
+
+<script>
+	ZLApp.Const = {
+		'AJAX_ROOT_ROUTE': 'www.znanylekarz.pl',
+		'ALGOLIA_API_KEY': '90a529da12d7e81ae6c1fae029ed6c8f',
+		'ALGOLIA_APP_ID': 'docplanner',
+		'ALGOLIA_HOSTS': ["docplanner-1.algolia.io","docplanner-2.algolia.io","docplanner-3.algolia.io"],
+		'ALGOLIA_PREFIX': '',
+		'ALGOLIA_SUFFIX': '',
+		'BASE_DOMAIN': 'znanylekarz.pl',
+		'BOOKING_APP_BOOK_VISIT': 'umow-wizyte',
+		'BOOKING_APP_BOOK_VISIT_SLOTS': 'wybierz-wizyte',
+		'BREAKPOINTS': {
+			'SCREEN_LG_MIN': 1200,
+			'SCREEN_MD_MAX': 1199,
+			'SCREEN_MD_MIN': 992,
+			'SCREEN_SM_MAX': 991,
+			'SCREEN_SM_MIN': 768,
+			'SCREEN_XS_MAX': 767,
+		},
+		'RECAPTCHA_SITE_KEY': '6LdoFUseAAAAAEZyELW_Eg38q3kL1A8OaDPwQa5o',
+		'COVID_TEST_ID': '185',
+		'CURRENCY': '0 - 0 zł',
+		'CURRENT_COUNTRY_NAME': 'Polska',
+		'CURRENT_COUNTRY_PHONE_PREFIX': '+48',
+		'CURRENT_ROUTE': 'route_homepage',
+		'DOCTOR_REGISTRATION_WITHOUT_VERIFICATION': true,
+		'DOMAIN': 'www.znanylekarz.pl',
+		'DWH_STATISTICS_URL': 'https://dwh-statistics.znanylekarz.pl',
+		'EVENT_TRACKER_URL': 'https://event-tracker.docplanner.com',
+		'FACEBOOK_FANPAGE_URL': 'https://www.facebook.com/ZnanyLekarz',
+		'FACEBOOK_LOCALE': 'pl_PL',
+		'FACILITY_URL': 'https://www.znanylekarz.pl/placowki/__urlname__',
+		'FIRST_SOCIAL_LOGIN':  false ,
+		'GEOCODER_DOMAIN': 'geocoder.znanylekarz.pl',
+		'GOOGLE_API_KEY': 'AIzaSyAPEkgzgNuQ7h-PLlGo4YqglJ0Ht9RIiPk',
+		'GOOGLE_APP_ID': '965288796332-0h7v07k49r7ggo08nggbg2sdop6eop7d.apps.googleusercontent.com',
+		'GOOGLE_ONE_TAP_REDIRECT_URL': 'https://www.znanylekarz.pl/social-connect/pl_sso?_redirect=https%3A//www.znanylekarz.pl/',
+		'HAS_UNIFIED_NAVIGATION': false,
+		'HERE_MAPS': {
+			'APP_CODE': 'udJpN12Lhrj_QTtf0ELoOQ',
+			'APP_ID': 'MmF8B5LYRYSsH0yb1LuT',
+		},
+		'HUBSPOT_ECOMMERCE_CONTACT': '07420eff-a356-467c-a0b1-a89894bba8a1',
+		'HUBSPOT_ID': '442271',
+		'ISO_LOCALE': 'pl',
+		'IS_LOGGED': false,
+		'IS_LOGGED_DOCTOR': false,
+		'IS_LOGGED_FACILITY_MANAGER': false,
+		'IS_PATIENT_APP': false,
+		'IS_PHONE': false,
+		'IS_STAGING': false,
+		'LANGUAGE_CODE': 'pl_PL',
+		'LOADER_IMAGE': '<p class="loader"><img src="//platform.docplanner.com/img/general/user-interface/loader-ready-white.gif?1799301098" alt=""/></p>',
+		'LOADER_URL': "//platform.docplanner.com/img/general/user-interface/loader-ready-white.gif?1799301098",
+		'LOCALE': 'pl',
+		'MARKETING_CONSENT_IS_INFO': false,
+		'MARKETING_CONSENT_PRECHECKED': true,
+		'MIN_QUESTION_CHARACTERS': 50,
+		'PAGE_TYPE': 'homepage',
+		'PATIENT_APP_VERSION': '',
+		'PLATFORM_LINK': '//platform.docplanner.com/',
+		'POST_CODE_MASK': '99-999',
+		'PROTOCOL': 'https',
+		'REFERER': '',
+		'SAAS_MANAGEMENT_WIDGET_DOMAIN': 'booking-management.znanylekarz.pl',
+		'SEARCH_PATH': "https:\/\/www.znanylekarz.pl\/szukaj",
+		'SITE_LANG': 'pl',
+		'SITE_NAME': 'ZnanyLekarz',
+		'SSO_DOMAIN': 'l.znanylekarz.pl',
+		'SSO_SOCIAL_CONNECT': 'https://www.znanylekarz.pl/social-connect/pl_sso?_redirect=',
+		'SSO_SOCIAL_CONNECT_REDIRECT_URL': 'https://www.znanylekarz.pl/social-connect/pl_sso?_redirect=https%3A//www.znanylekarz.pl/',
+		'TIMEZONE': '+02:00',
+		'UPPERCASE_RATIO_ON_OPINIONS': 50,
+		'USER_ID': null,
+		'VISIT_URL': '',
+		'WIDGETS_APP_URL': 'widgets.znanylekarz.pl',
+	};
+
+	ZLApp.isRoute = function(route) {
+		if (Array.isArray(route)) {
+			return route.indexOf(this.Const.CURRENT_ROUTE) > -1;
+		}
+
+		return this.Const.CURRENT_ROUTE === route;
+	};
+</script>
+
+
+																																																																																																																	
+<script>
+	ZLApp.Gate = {"GATE_ADDRESS_ONLINE_CONSULTATION":true,"GATE_ADMIN_CHAT_GDPR":true,"GATE_BOOKING_INSURANCE":false,"GATE_BOOKING_DIRECT_INSURANCE":false,"GATE_CALENDAR_NOTIFICATION_FIND_OTHER_DOCTOR":true,"GATE_CHECK_YOUR_INSURANCE":false,"GATE_CONTEXTUAL_SEARCH_AT_HOMEPAGE":true,"GATE_COOKIE_CONSENT":true,"GATE_COVID_TEST_SEARCH":true,"GATE_CRM_ECOMMERCE_BALOTO":false,"GATE_CRM_ECOMMERCE_BLACK_FRIDAY":false,"GATE_CRM_ECOMMERCE_BOLETO":false,"GATE_CRM_ECOMMERCE_IBAN":false,"GATE_CRM_ECOMMERCE_IYZICO_ONE_TIME":false,"GATE_CRM_ECOMMERCE_PAYMENTS_TESTIMONIALS":false,"GATE_CRM_ECOMMERCE_PIX":false,"GATE_CRM_ECOMMERCE_PSE":false,"GATE_CRM_ECOMMERCE_SERVIPAG":false,"GATE_CRM_ECOMMERCE_SHOW_CPL_PRICING_DETAILS":true,"GATE_CRM_ECOMMERCE_WEBSITE":false,"GATE_CRM_ECOMMERCE_WEB_PAY":false,"GATE_CRM_GENERATE_DRAFTS_BEFORE_INVOICES":false,"GATE_CRM_IYZICO":false,"GATE_CRM_MARKETPLACE_ACCOUNT_ACTION_REQUIRED_MODAL":true,"GATE_CRM_MARKETPLACE_ACCOUNT_UPDATE_PAYOUT_FREQUENCY":true,"GATE_CRM_PAYU":true,"GATE_CRM_PRODUCT_PANEL_INVOICE_BLIK_PAY":true,"GATE_CRM_PRODUCT_PANEL_INVOICE_PIX_PAY":false,"GATE_CRM_REFERRAL_PROGRAM_REQUIRE_TERMS":false,"GATE_CRM_USE_SCA_AUTHENTICATION_FLOW":true,"GATE_DIRECT_INSURANCES":false,"GATE_DOCTOR_CALENDAR_FILTERS":true,"GATE_DOCTOR_LICENSE_NUMBER":false,"GATE_DOCTOR_PROFILE_TOP_BANNER_TOUCHPOINT":true,"GATE_DOCTOR_REGISTRATION_EMAIL_CONFIRMATION":false,"GATE_DOCTOR_STATISTICS_VIDEO":true,"GATE_DOCTOR_PROFILE_OPENING_HOURS":false,"GATE_ECOMMERCE_CAMPAIGNS_LANDING_PAGE":true,"GATE_ECOMMERCE_PREMIUM_LANDING_MODAL":false,"GATE_ECOMMERCE_PREMIUM_LANDING_MODAL_MARKETING":false,"GATE_ECOMMERCE_PRICING_WEBSITE_ON_DEFAULT":false,"GATE_ECOMMERCE_SHOW_FRAUD_INFO":false,"GATE_ECOMMERCE_THANK_YOU_PAGE_NEW_ONBOARDING_WIZARD":false,"GATE_ECOMMERCE_UNPAID_INVOICES_MODAL":true,"GATE_ENABLE_LICENSE_NUMBER_VERIFICATION":false,"GATE_ENABLE_MIXPANEL_TRACKING":true,"GATE_FACILITY_CALENDAR_SERVICE_STEP":true,"GATE_FACILITY_CALENDAR_SORT_BY_NAME":false,"GATE_FACILITY_PROFILE_TOP_BANNER_TOUCHPOINT":true,"GATE_FACILITY_REGISTRATION":true,"GATE_FACILITY_REGISTRATION_EMAIL_CONFIRMATION":true,"GATE_FACILITY_SERVICES_TABLE":true,"GATE_REFACTORED_FACILITY_ITEM_ABOUT":false,"GATE_FIND_ANOTHER_SPECIALIST_WHEN_NO_AVAILABILITY":false,"GATE_GDPR_MARKETING_CONSENT_MANDATORY":false,"GATE_GDPR_REGISTRATION_INFORMATION":false,"GATE_GENERAL_MARKETING_AGREEMENT":true,"GATE_GOOGLE_ONE_TAP_LOGIN":true,"GATE_HIDE_NEARBY_DOCTORS_ON_NON_COMMERCIAL_PROFILE":false,"GATE_HIDE_PRICES_FOR_PATIENTS_WITH_INSURANCE":false,"GATE_HOMEPAGE_PATIENT_APP_BANNER":true,"GATE_HUBSPOT":true,"GATE_INSURANCE_PLANS":false,"GATE_INSURANCE_REFUND":false,"GATE_INSURANCE_REFUND_DOCUMENTS":false,"GATE_LOCATION_DETAILS":true,"GATE_MODERATION_DOCTOR_ITEM_REQUIRED":false,"GATE_MODERATION_DOCTOR_ITEM_SPECIALIZATION":false,"GATE_MODERATION_DOCTOR_SPECIALIZATION":true,"GATE_MODERATION_EDIT_OPINION_BY_MODERATOR":true,"GATE_MODERATION_HIGHLIGHT_IN_OPINION":false,"GATE_MODERATION_OPINION_TRUST_SCORE_DISPLAY":true,"GATE_MODERATION_PANEL_DOCTOR_NEW_BY_SELF":false,"GATE_MODERATION_SPECIALIZATION_DOCUMENT_VERIFICATION":false,"GATE_NEW_SEARCH_DISTRICT_FILTERS":false,"GATE_NEW_SEARCH_FORCE_DOCTORS_ON_LANDING_PAGES":false,"GATE_NEW_SEARCH_ONLINE_CONSULTATION_BANNER":true,"GATE_NEW_SEARCH_PATIENT_APP_BANNER":true,"GATE_ONLINE_CONSULTATION_CALENDAR_PAYMENT_TIP":true,"GATE_ONLINE_LANDING_REAL_TESTIMONIALS":true,"GATE_OPINIONS_NEW_FLOW_SAMPLE_OPINIONS":false,"GATE_OPINION_SIGNATURE_HIDE":false,"GATE_OPINION_SORTING_SHOW":false,"GATE_PANEL_PATIENT_APP_BANNER":true,"GATE_PB_BOOKING_SOURCE":false,"GATE_PROFILE_NO_CALENDAR_PATIENT_APP_BANNER":true,"GATE_ENABLE_ALL_PATIENT_APP_BANNER":true,"GATE_Q_AND_A":true,"GATE_Q_AND_A_ALLOW_PRIVATE_QUESTIONS":false,"GATE_Q_AND_A_ANSWER_MODERATION":false,"GATE_Q_AND_A_PRIVATE_QUESTIONS_PANEL_VUE":false,"GATE_RECURRING_CREDIT_CARD_PAYMENT":true,"GATE_SAVE_DOCTOR_PROFILE":true,"GATE_SAVE_DOCTOR_PROFILE_NON_LOGGED":true,"GATE_SENTRY_JS":true,"GATE_SEO_ENABLE_NEW_DOCTOR_HOMEPAGE_SECTION":true,"GATE_SHOW_ADDRESS_FACILITY_WARNING":true,"GATE_SHOW_DOCTOR_PROFILE_EDITION_DESCRIPTION":true,"GATE_SHOW_GDPR_CHECKBOX":false,"GATE_SHOW_PHONE_ON_NON_COMMERCIAL_DOCTORS":false,"GATE_SLOT_RELEASED":true,"GATE_STRONG_PASSWORD_VALIDATOR":true,"GATE_TIMEZONE_ONLINE_CONSULTATION":false,"GATE_TURKISH_LAW_COMPLIANCE":false,"GATE_UKRAINE_BANNER_HOMEPAGE":true,"GATE_USER_REGISTRATION_EMAIL_CONFIRMATION":true,"GATE_VUE_LOCATION_AUTOCOMPLETE_LOGS":false,"GATE_VUE_WIDGETS":true,"GATE_WEBSOCKETS":true,"GATE_MODERATION_SPECIALIZATION_DOCUMENT_VERIFICATION_SENT_EMAIL":false,"GATE_TEST_ACCOUNTS_DASHBOARD_FACILITY_ACCOUNTS_TOGGLE":false,"GATE_PATIENT_CHAT_MOVE_CAN_CHAT_TO_API":true,"GATE_OPINION_ACTIVATION_AND_EMAIL_VERIFICATION_VIA_EMAIL":false};
+
+	ZLApp.isGranted = function (gate) {
+		return this.Gate[gate];
+	};
+</script>
+
+
+	<script>
+		ZLApp.Lang = {
+						"@Disease": "choroba",
+			"@List": "lista",
+			"@Map": "mapa",
+			"abandoned_cart_button": "Potwierd\u017a termin",
+			"abandoned_cart_description": "Aby um\u00f3wi\u0107 wizyt\u0119, doko\u0144cz proces rezerwacji.",
+			"abandoned_cart_header": "Twoja wizyta nie zosta\u0142a jeszcze potwierdzona!",
+			"add": "Dodaj",
+			"add_patient": "Dopisz pacjenta",
+			"address": "Adres",
+			"addresses_with_no_online_booking": "Adresy bez mo\u017cliwo\u015bci rezerwacji online (%{count})",
+			"advance_schedule_calendar_address": "Adres",
+			"agenda_visit_manage_cancel_visit_modal": "Twoja wizyta zosta\u0142a anulowana.",
+			"agenda_visit_manage_confirm_visit_modal": "Dzi\u0119kujemy! Prosimy o punktualne przybycie.",
+			"apply_filters": "Zastosuj",
+			"are_you_sure": "Jeste\u015b pewien?",
+			"autocomplete_disease": "choroba",
+			"autocomplete_loading": "Szukamy wynik\u00f3w",
+			"autocomplete_search_empty": "Czego szukasz?",
+			"autocomplete_search_prefix": "Wyszukaj",
+			"autocomplete_specialization": "Specjalizacja",
+			"booking_sms_conf_after_resend_hint": "Wys\u0142ali\u015bmy SMS ponownie! Tym razem powinien doj\u015b\u0107 szybciej ni\u017c w 2 minuty. ",
+			"brand_doctors": "lekarzy",
+			"calendar_placeholder_title": "Umawianie na ZnanyLekarz",
+			"call": "Zadzwo\u0144",
+			"cancel": "Anuluj",
+			"changes_sent_to_moderation": "Zmiana zosta\u0142a wys\u0142ana do moderacji. Tre\u015b\u0107 nie b\u0119dzie widoczna na profilu do momentu akceptacji przez moderatora.",
+			"chat_error_message": "Spr\u00f3buj od\u015bwierzy\u0107 stron\u0119 aby zobaczy\u0107 najnowsze wiadomo\u015bci.",
+			"check_other_calendars": "Poka\u017c adresy z kalendarzem",
+			"choose_facility_address": "Wybierz adres plac\u00f3wki",
+			"clinics_autocomplete": "Centrum medyczne",
+			"close": "Zamknij",
+			"comment_should_not_capitalize": "Komentarz nie powinien by\u0107 pisany wielkimi literami",
+			"comment_to_short": "Opinia musi mie\u0107 przynajmniej %minCharacters% znak\u00f3w, aktualnie ma %currentCount%.",
+			"common_refresh": "Od\u015bwie\u017c",
+			"components.question.doctor.book": "Um\u00f3w wizyt\u0119",
+			"confirm_when_slot_remove": "Na pewno chcesz usun\u0105\u0107 te terminy?",
+			"congratulations_reminders_set": "Gratulujemy, ustawiono przypomnienie.",
+			"cookies-info": "Ta strona korzysta z ciasteczek. Kliknij <a href=\"%{url}\" id=\"close-cookie-info\">tutaj,<\/a> aby dowiedzie\u0107 si\u0119 wi\u0119cej. Je\u015bli wyra\u017casz na to zgod\u0119, kontynuuj przegl\u0105danie.",
+			"credit_card_hardbounce_error": "Podczas pr\u00f3by pobrania nale\u017cno\u015bci wyst\u0105pi\u0142 b\u0142\u0105d. Prosimy o zmian\u0119 metody p\u0142atno\u015bci, gdy\u017c obecna nie jest akceptowana.",
+			"currency_suffix": "%{currency_code} z\u0142",
+			"disable": "wy\u0142\u0105cz",
+			"doctor_all_addresses": "Adresy (%{count})",
+			"doctor_all_addresses_one": "Adres",
+			"doctor_autocomplete": "Specjalista",
+			"doctor_direct_message_duration_limit_error": "Doktor otrzyma\u0142 ju\u017c wiadomo\u015b\u0107 od Ciebie, poczekaj na kontakt.",
+			"doctor_direct_message_form_error": "B\u0142\u0105d formularza",
+			"doctor_edition_facility_type_header": "Rodzaj adresu",
+			"doctor_edition_online_office_name": "Nazwa gabinetu online",
+			"doctor_opinions_show_opinions": "Poka\u017c opinie",
+			"doctor_profile_add_opinion": "Dodaj opini\u0119",
+			"doctor_service": "Us\u0142uga",
+			"doctor_verificated_successfully": "Ten lekarz potwierdzi\u0142 wiarygodno\u015b\u0107 danych na swoim profilu",
+			"doctor_with_calendar": "Brak wizyt",
+			"ecommerce_error_retry": "B\u0142\u0105d transakcji, spr\u00f3buj ponownie za 5 minut.",
+			"edit": "edytuj",
+			"edit_visit_patient": "Edytuj pacjenta",
+			"enable": "w\u0142\u0105cz",
+			"errorTryLater": "Wyst\u0105pi\u0142 b\u0142\u0105d. Spr\u00f3buj jeszcze raz.",
+			"error_while_uploading_photos": "Nasz serwer ma problem z przetworzeniem Twoich zdj\u0119\u0107. Spr\u00f3buj zmniejszy\u0107 ich rozmiary lub dodawa\u0107 je pojedynczo.",
+			"expand_map": "Powi\u0119ksz map\u0119",
+			"facility": "Plac\u00f3wka",
+			"facility_listing_context_alert": "Zmiana specjalizacji, adresu b\u0105d\u017a wyb\u00f3r konkretnego lekarza mo\u017ce spowodowa\u0107, \u017ce wy\u015bwietlane terminy nie b\u0119d\u0105 spe\u0142nia\u0107 wybranych wcze\u015bniej kryteri\u00f3w (us\u0142uga czy ubezpieczenie).",
+			"facility_name_plaxeholder": "np. Specjalistyczny Gabinet Diagnostyki Ginekologiczno - Po\u0142o\u017cniczej",
+			"fieldNotEmpty": "To pole nie mo\u017ce by\u0107 puste",
+			"filter_info_box": "U\u017cyj filtr\u00f3w aby otrzyma\u0107 wyniki bardziej dostosowane do Twoich potrzeb.",
+			"finish": "Zako\u0144cz",
+			"forward": "Dalej",
+			"from": "Od",
+			"google_calendar_cancel_sync_text": "Czy na pewno chcesz anulowa\u0107 synchronizacj\u0119?",
+			"import_address_name": "Nazwa gabinetu",
+			"incorrect_date": "Nieprawid\u0142owa data!",
+			"insurance_box_title": "Szukasz lekarza z konkretnym planem ubezpieczeniowym? Sprawd\u017a poni\u017csze opcje",
+			"internal_number_warning": "Po rozpocz\u0119ciu po\u0142\u0105czenia wprowad\u017a numer wewn\u0119trzny:",
+			"less": "mniej",
+			"license_verification_doctor_profile_modal_body": "Perfil sob verifica\u00e7\u00e3o da Doctoralia. As informa\u00e7\u00f5es publicadas neste perfil foram geradas exclusivamente pelo usu\u00e1rio, e n\u00e3o foram apuradas ainda pela Doctoralia. At\u00e9 a verifica\u00e7\u00e3o deste perfil, sugerimos que confirme a veracidade junto ao conselho da especialidade correspondente, ex.: CFM, CFP, CFO.",
+			"link_doctor_to_clinic.choose_clinic.placeholder": "Zacznij wpisywa\u0107, aby wyszuka\u0107 plac\u00f3wk\u0119",
+			"link_doctor_to_clinic.choose_clinic.title": "Wybierz plac\u00f3wk\u0119, w kt\u00f3rej pracujesz",
+			"loadingWait": "Trwa \u0142adowanie. Prosz\u0119 czeka\u0107...",
+			"map": "mapa",
+			"map_empty_state_CTA": "Przybli\u017c map\u0119 lub poruszaj si\u0119 po niej, by zobaczy\u0107 wi\u0119cej wynik\u00f3w",
+			"map_empty_state_copy_generic": "Nie ma takich specjalist\u00f3w w okolicy",
+			"map_empty_state_copy_spec": "Brak %dentists% w tej okolicy",
+			"map_search": "Szukaj w tej okolicy",
+			"map_test_modal_CTA": "Wr\u00f3c do listy specjalist\u00f3w",
+			"map_test_modal_text": "Ju\u017c wkr\u00f3tce zostanie uruchomiona pe\u0142na wersja tej podstrony.",
+			"map_test_modal_text_headline": "Strona w budowie.",
+			"mobile_sign_as": "Podpisz si\u0119 jako",
+			"mobile_specialization": "Specjalizacja",
+			"mobile_visit_try_again": "Spr\u00f3buj ponownie",
+			"more": "wi\u0119cej",
+			"move_visit": "prze\u0142\u00f3\u017c wizyt\u0119",
+			"no": "Nie",
+			"no_calendar_in_your_location": "Brak kalendarza w Twojej lokalizacji.",
+			"no_open_slots": "Brak wolnych termin\u00f3w",
+			"no_results_for": "Nie znaleziono wynik\u00f3w wyszukiwania dla",
+			"no_slots_facility_cta": "Poka\u017c profil",
+			"no_slots_facility_info": "Brak dost\u0119pnych specjalist\u00f3w z wolnymi terminami w tym centrum medycznym.",
+			"online_consultation_doc_card_label": "Oferuje konsultacje online",
+			"pagination_next": "Nast\u0119pna",
+			"pagination_previous": "Poprzednia",
+			"panel_delete-me-modal_no": "Nie, zatrzymaj konto",
+			"panel_delete-me-modal_yes": "Tak, usu\u0144 konto",
+			"patient_visit_cancel_modal_confirm": "Czy na pewno chcesz odwo\u0142a\u0107 wizyt\u0119?",
+			"patients_marketing_consent_modal_cta_no": "Nie, dzi\u0119kuj\u0119",
+			"patients_marketing_consent_modal_cta_yes": "Tak, chc\u0119 dostawa\u0107 informacje od ZnanyLekarz",
+			"patients_marketing_consent_modal_desc": "Otrzymuj informacje o naszych nowych funkcjonalno\u015bciach i us\u0142ugach. Dzi\u0119ki temu w pe\u0142ni wykorzystasz ZnanyLekarz, aby dba\u0107 o zdrowie swoje i bliskich.",
+			"patients_marketing_consent_modal_legal_txt": "Aby m\u00f3c dzieli\u0107\u00a0si\u0119 z Tob\u0105 nowo\u015bciami na ZnanyLekarz, potrzebujemy Twojej zgody. Mo\u017cesz wycofa\u0107 j\u0105\u00a0w dowolnym momencie.",
+			"patients_marketing_consent_modal_legal_txt_learn_more": "Dowiedz si\u0119 wi\u0119cej w naszej polityce prywatno\u015bci.",
+			"patients_marketing_consent_modal_legal_txt_tooltip": "Potrzebujemy Twojej zgody, aby m\u00f3c zaoferowa\u0107 Ci najlepsze do\u015bwiadczenia w korzystaniu z naszego serwisu. Pami\u0119taj, \u017ce w ka\u017cdym momencie mo\u017cesz wycofa\u0107 zgod\u0119. <a href=\"https:\/\/www.znanylekarz.pl\/prywatnosc\">Dowiedz si\u0119 wi\u0119cej w naszej polityce prywatno\u015bci.<\/a>",
+			"patients_marketing_consent_modal_title": "Nie przegap nowo\u015bci",
+			"price_from": "Od %price%",
+			"provide_visit_location": "Podaj miejsce wizyty",
+			"qna_question_delete_confirm": "Czy na pewno chcesz usun\u0105\u0107 to pytanie?",
+			"rate_error": "Aby doda\u0107 opini\u0119 musisz wybra\u0107 ocen\u0119.",
+			"registration.facility.user_position.doctor": "Lekarz",
+			"reminder_removed": "Przypomnienie zosta\u0142o usuni\u0119te",
+			"remove_slot_error_message": "Usuni\u0119cie terminu nie powiod\u0142o si\u0119",
+			"removing": "Usuwanie",
+			"reset_filters": "Wyczy\u015b\u0107",
+			"saving": "Zapisuj\u0119\u2026",
+			"search_all_filters": "Wszystkie filtry",
+			"search_calendar_missing": "Brak kalendarza",
+			"search_doctors": "Szukaj lekarzy",
+			"search_error_no_location": "Nie mo\u017cna ustali\u0107 lokalizacji u\u017cytkownika. ",
+			"search_filter_calendar": "Umawianie na ZnanyLekarz",
+			"search_filter_calendar_description": "Poka\u017c specjalist\u00f3w, do kt\u00f3rych mo\u017cesz um\u00f3wi\u0107 si\u0119\u00a0na portalu ZnanyLekarz",
+			"search_filter_clinics": "Centrum medyczne",
+			"search_filter_dates_per_date": "Termin wizyty",
+			"search_filter_diseases": "Choroby",
+			"search_filter_districts": "Dzielnice",
+			"search_filter_doctors": "Lekarze",
+			"search_filter_doctors_clinics": "Lekarze i centra medyczne",
+			"search_filter_entity_type": "Rodzaj wynik\u00f3w",
+			"search_filter_insurances": "Ubezpieczenia",
+			"search_filter_kids_friendly": "Przyjmuje dzieci",
+			"search_filter_kids_friendly_description": "Specjali\u015bci, kt\u00f3rzy przyjmuj\u0105 m\u0142odszych pacjent\u00f3w",
+			"search_filter_payment_methods": "Metody p\u0142atno\u015bci",
+			"search_filter_services": "Us\u0142ugi",
+			"search_filter_specializations": "Specjalizacje",
+			"search_in_doctors": "Znajd\u017a specjalist\u0119 \"%{QUERY}\"",
+			"search_in_facilities": "Znajd\u017a centrum medyczne \"%{QUERY}\"",
+			"search_see_profile": "Zobacz profil",
+			"search_sort_by": "Sortowanie",
+			"search_sorter": "Sortowanie",
+			"search_sorter_availability": "Najwcze\u015bniejszy wolny termin",
+			"search_sorter_factor_based": "Rekomendowani",
+			"search_sorter_rating": "Najlepiej ocenieni",
+			"search_sorter_recommended": "sugerowani",
+			"search_whole_website": "Szukaj \"%phrase%\" w ca\u0142ym serwisie",
+			"selectService": "Wybierz us\u0142ug\u0119",
+			"selectSpecialization": "Wybierz specjalizacj\u0119",
+			"select_choose": "---- wybierz ----",
+			"selected": "Wybranych",
+			"send_opinion": "Wy\u015blij opini\u0119",
+			"services_and_prices_no_price": "Brak ceny",
+			"set_visit_button": "Um\u00f3w wizyt\u0119",
+			"show_more": "zobacz wi\u0119cej",
+			"show_phone": "Poka\u017c numer",
+			"show_yesterday": "Poka\u017c wczorajszy dzie\u0144",
+			"super_doctor_mail_CTA_see_all_opinions": "Zobacz wszystkie opinie",
+			"terms_of_visits_addition": "Dodawanie termin\u00f3w wizyt",
+			"toast_remove_slot_title": "Termin usuni\u0119ty!",
+			"toast_undo_remove_slot_title": "Termin przywr\u00f3cony!",
+			"toggle_filters": "Filtry",
+			"unexpected_error": "Wyst\u0105pi\u0142 nieoczekiwany b\u0142\u0105d!",
+			"unsaved_changes": "Wygl\u0105da na to, \u017ce wprowadzone przez Ciebie zmiany nie zosta\u0142y zapisane. Czy chcesz pozosta\u0107 na tej stronie, by m\u00f3c je zapisa\u0107?",
+			"validation.email": "Podaj prawid\u0142owy adres e-mail",
+			"validation.maxLength": "Ta warto\u015b\u0107 jest zbyt d\u0142uga. Powinna mie\u0107 %{max} lub mniej znak\u00f3w.",
+			"validation.minLength": "Ta warto\u015b\u0107 jest zbyt kr\u00f3tka. Powinna mie\u0107 %{min} lub wi\u0119cej znak\u00f3w. ",
+			"validation.required": "To pole jest wymagane",
+			"validator_email": "Podaj prawid\u0142owy adres e-mail",
+			"validator_required": "To pole jest wymagane",
+			"visit_details_saving_progress": "Trwa zapisywanie...",
+			"visit_details_visit_cancelled": "Wizyt\u0119 odwo\u0142ano",
+			"visit_out_of_schedule": "Termin poza grafikiem",
+			"visit_report_select_all": "Wybierz wszystko",
+			"visit_select_date": "Wybierz termin wizyty",
+			"wait_a_moment": "Poczekaj chwil\u0119...",
+			"warning": "Uwaga",
+			"we_are_checking_your_localization": "Szukamy Twojej lokalizacji...",
+			"widget_default_specialist": "specjalista",
+			"widget_show_reviews": "Poka\u017c opinie",
+			"yes": "Tak",
+			"you_have_x_custom_calendar_configs": "masz $amount tygodni ze zmienionym grafikiem",
+			"you_need_characters": "Musisz napisa\u0107 jeszcze: %{currentCount} znak\u00f3w.",
+			"your_account_demo_1": "Sprawd\u017a jak dzia\u0142a nowa lista wizyt",
+			"your_account_demo_2": "Zamiast przewija\u0107 list\u0119 mo\u017cesz wybra\u0107 odpowiedni dzie\u0144 z kalendarza",
+			"your_account_demo_3": "Jednym przyciskiem zapiszesz pacjenta na dowolny dost\u0119pny termin",
+			"your_account_demo_4": "Mo\u017cesz wybra\u0107 list\u0119 dla jednego z adres\u00f3w",
+			"your_account_demo_5": "Mo\u017cesz edytowa\u0107 wizyty wcze\u015bniej wpisane przez siebie",
+			"your_account_demo_6": "Kliknij w pozycj\u0119 na li\u015bcie, \u017ceby zobaczy\u0107 szczeg\u00f3\u0142owe informacje",
+	
+			'all_specs': 'Wszystkie\u0020specjalizacje',
+			'banner_promote_app_cta_2': 'Przejd\u017A\u0020do\u0020aplikacji',
+			'banner_promote_app_text_1': 'Pobierz\u0020nasz\u0105\u0020aplikacj\u0119\u0020i\u0020odkryj\u0020przyjazn\u0105\u0020opiek\u0119\u0020medyczn\u0105.',
+			'call_center_info_placeholder_transport': 'np.\u0020\u0022Wej\u015Bcie\u0020od\u0020ty\u0142u\u0020budynku,\u0020naprzeciwko\u0020centrum\u0020handlowego,\u0020mo\u017Cna\u0020dojecha\u0107\u0020tramwajem\u0020nr\u00202,\u00205,\u00207\u0022',
+			'directions_parking': 'Wskaz\u00F3wki\u0020dojazdu\u0020i\u0020parking',
+			'docplanner_payments_action_required': 'P\u0142atno\u015Bci\u0020\u002D\u0020wymagana\u0020aktualizacja\u0020konta',
+			'docplanner_payments_action_required_tip1': 'Twoje\u0020konto\u0020wymaga\u0020aktualizacji.\u0020',
+			'docplanner_payments_action_required_tip2': 'Przejd\u017A\u0020na\u0020stron\u0119\u0020naszego\u0020operatora\u0020p\u0142atno\u015Bci\u0020w\u0020celu\u0020uzupe\u0142nienia\u0020niezb\u0119dnych\u0020informacji.',
+			'docplanner_payments_action_required_update_button': 'Zaktualizuj',
+			'doctor_edition_remote_instructions_header': 'Szczeg\u00F3\u0142y\u0020dotycz\u0105ce\u0020po\u0142\u0105czenia',
+			'doctor_edition_remote_instructions_placeholder': 'Wpisz\u0020instrukcje\u0020tutaj',
+			'doctor_edition_remote_instructions_tip': 'Podane\u0020przez\u0020Ciebie\u0020informacje\u0020\u0028numer\u0020telefonu,\u0020email\u0029\u0020b\u0119d\u0105\u0020widoczne\u0020dla\u0020pacjent\u00F3w\u0020dopiero\u0020po\u0020um\u00F3wieniu\u0020wizyty.',
+			'doctor_panel_address_details': 'Informacje,\u0020kt\u00F3re\u0020pacjent\u0020mo\u017Ce\u0020zobaczy\u0107\u0020po\u0020um\u00F3wieniu\u0020wizyty,\u0020a\u0020kt\u00F3re\u0020pomog\u0105\u0020mu\u0020dotrze\u0107\u0020do\u0020Twojego\u0020gabinetu,\u0020np.\u0020opis\u0020lokalizacji,\u0020wej\u015Bcia\u0020do\u0020budynku,\u0020dojazdu\u0020komunikacj\u0105\u0020miejsk\u0105\u0020lub\u0020samochodem.',
+			'has_unpaid_invoices_btn': 'Zap\u0142a\u0107',
+			'has_unpaid_invoices_content': 'Prosimy\u0020o\u0020dokonanie\u0020p\u0142atno\u015Bci\u0020online\u0020lub\u0020za\u0020po\u015Brednictwem\u0020przelewu\u0020bankowego.',
+			'has_unpaid_invoices_title': 'Na\u0020Twoim\u0020koncie\u0020jest\u0020nieop\u0142acona\u0020faktura.',
+			'marketplace_account_rejected_account_apology_information': 'Przepraszamy\u0020za\u0020niedogodno\u015Bci\u0020i\u0020dzi\u0119kujemy\u0020za\u0020cierpliwo\u015B\u0107.',
+			'marketplace_account_rejected_account_header': 'P\u0142atno\u015Bci\u0020\u002D\u0020Twoje\u0020konto\u0020zosta\u0142o\u0020tymczasowo\u0020zawieszone',
+			'marketplace_account_rejected_account_header_description': 'Twoje\u0020konto\u0020zosta\u0142o\u0020tymczasowo\u0020zawieszone\u0020przez\u0020naszego\u0020operatora\u0020p\u0142atno\u015Bci.',
+			'marketplace_account_rejected_account_work_in_progress': 'Pracujemy\u0020niestrudzenie,\u0020aby\u0020Twoje\u0020konto\u0020jak\u0020najszybciej\u0020by\u0142o\u0020w\u0020pe\u0142ni\u0020funkcjonalne.',
+			'month': {
+				'0': 'stycznia',
+				'1': 'lutego',
+				'2': 'marca',
+				'3': 'kwietnia',
+				'4': 'maja',
+				'5': 'czerwca',
+				'6': 'lipca',
+				'7': 'sierpnia',
+				'8': 'wrze\u015Bnia',
+				'9': 'pa\u017Adziernika',
+				'10': 'listopada',
+				'11': 'grudnia',
+			},
+			'monthShort': {
+				'0': 'Sty',
+				'1': 'Lut',
+				'2': 'Mar',
+				'3': 'Kwi',
+				'4': 'Maj',
+				'5': 'Cze',
+				'6': 'Lip',
+				'7': 'Sie',
+				'8': 'Wrz',
+				'9': 'Pa\u017A',
+				'10': 'Lis',
+				'11': 'Gru',
+			},
+			'month.0': 'stycznia',
+			'month.1': 'lutego',
+			'month.2': 'marca',
+			'month.3': 'kwietnia',
+			'month.4': 'maja',
+			'month.5': 'czerwca',
+			'month.6': 'lipca',
+			'month.7': 'sierpnia',
+			'month.8': 'wrze\u015Bnia',
+			'month.9': 'pa\u017Adziernika',
+			'month.10': 'listopada',
+			'month.11': 'grudnia',
+			'month_short.0': 'Sty',
+			'month_short.1': 'Lut',
+			'month_short.2': 'Mar',
+			'month_short.3': 'Kwi',
+			'month_short.4': 'Maj',
+			'month_short.5': 'Cze',
+			'month_short.6': 'Lip',
+			'month_short.7': 'Sie',
+			'month_short.8': 'Wrz',
+			'month_short.9': 'Pa\u017A',
+			'month_short.10': 'Lis',
+			'month_short.11': 'Gru',
+			'more': 'wi\u0119cej',
+			'online_consultation_check_box': 'Konsultacja\u0020online',
+			'search': 'Szukaj',
+			'search_placeholder_specialization': 'specjalizacja\u0020lub\u0020nazwisko',
+			'search_placeholder_where': 'miasto\u0020lub\u0020dzielnica',
+			'search_placeholder_where_city': 'miasto\u0020lub\u0020dzielnica',
+			'statistics_video_pro_modal_body': 'Odkryj,\u0020jak\u0020mo\u017Cemy\u0020Ci\u0020pom\u00F3c\u0020osi\u0105gn\u0105\u0107\u0020wyniki,\u0020kt\u00F3rych\u0020oczekujesz.',
+			'statistics_video_pro_modal_body_bold': 'Chcesz\u0020obejrze\u0107\u0020raport\u0020dotycz\u0105cy\u0020Twojego\u0020profilu\u0020na\u0020ZnanyLekarz.pl\u003F',
+			'statistics_video_pro_modal_cta': 'Dowiedz\u0020si\u0119\u0020wi\u0119cej',
+			'statistics_video_pro_modal_cta_lead': 'Inni\u0020\u0025\u007Bspecialization_name\u007D\u0020uzyskuj\u0105\u0020najlepsze\u0020rezultaty\u0020z\u0020Pakietem\u0020Premium',
+			'statistics_video_pro_modal_cta_lead_general': 'Inni\u0020specjali\u015Bci\u0020uzyskuj\u0105\u0020najlepsze\u0020rezultaty\u0020z\u0020Pakietem\u0020Premium',
+			'statistics_video_pro_modal_header': 'Przygotowali\u015Bmy\u0020dla\u0020Ciebie\u0020specjalny\u0020film',
+			'weekDay': {
+				'0': 'Poniedzia\u0142ek',
+				'1': 'Wtorek',
+				'2': '\u015Aroda',
+				'3': 'Czwartek',
+				'4': 'Pi\u0105tek',
+				'5': 'Sobota',
+				'6': 'Niedziela',
+			},
+			'weekDayShort': {
+				'0': 'Pon,',
+				'1': 'Wt,',
+				'2': '\u015Ar,',
+				'3': 'Czw,',
+				'4': 'Pt,',
+				'5': 'Sob,',
+				'6': 'Ndz,',
+			},
+			'weekday.0': 'poniedzia\u0142ek',
+			'weekday.1': 'wtorek',
+			'weekday.2': '\u015Broda',
+			'weekday.3': 'czwartek',
+			'weekday.4': 'pi\u0105tek',
+			'weekday.5': 'sobota',
+			'weekday.6': 'niedziela',
+			'weekday_short.0': 'Pon,',
+			'weekday_short.1': 'Wt,',
+			'weekday_short.2': '\u015Ar,',
+			'weekday_short.3': 'Czw,',
+			'weekday_short.4': 'Pt,',
+			'weekday_short.5': 'Sob,',
+			'weekday_short.6': 'Ndz,',
+		};
+	</script>
+	
+
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+	
+
+<link rel="shortcut icon" type="image/png" data-lazyload-href="//platform.docplanner.com/img/general/icons/favicon.png?2370760445"/>
+
+	<link rel="image_src" href="//platform.docplanner.com//img/pl/logo/logo-small-pl.png"/>
+
+			
+	
+			<link href="//platform.docplanner.com/css/jade-dpuikitv3-676d7ce7.css" rel="stylesheet"/>
+		
+	
+			<link href="//platform.docplanner.com/css/jade-homepage-5ad7f26c.css" rel="stylesheet"/>
+	
+
+	
+
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "WebSite",
+			"url": "https://www.znanylekarz.pl/",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https://www.znanylekarz.pl/szukaj?q={q}",
+				"query-input": "required name=q"
+			}
+		}
+
+	</script>
+
+				
+						<!-- Google Tag Manager -->
+<script>
+	var dataLayerContainer = {};
+
+	dataLayerContainer['gtm-pageType'] = 'homepage';
+	dataLayerContainer['gtm-region'] = '';
+	dataLayerContainer['gtm-district'] = '';
+	dataLayerContainer['gtm-specialization'] = '';
+	dataLayerContainer['gtm-specializationId'] = '';
+	dataLayerContainer['gtm-fcategory'] = '';
+	dataLayerContainer['gtm-city'] = '';
+	dataLayerContainer['gtm-disease'] = '';
+	dataLayerContainer['gtm-service'] = '';
+	dataLayerContainer['gtm-isMetaIndex'] = '1';
+	dataLayerContainer['gtm-isMetaFollow'] = '1';
+	dataLayerContainer['gtm-redesignedNonCommercialProfile'] = '0';
+	dataLayerContainer['gtm-redesignedCommercialProfile'] = '0';
+	dataLayerContainer['gtm-country-code'] = 'pl';
+	dataLayerContainer['gtm-doctorIsOnOwnProfile'] = '0';
+	dataLayerContainer['gtm-is-webview'] = '0';
+
+	
+	
+	
+	
+	
+			dataLayerContainer['gtm-is-logged-in'] = '0';
+	
+	dataLayer = [dataLayerContainer];
+
+	var isE2ETest = document.cookie.match('(^|;)\\s*dp_test\\s*=\\s*([^;]+)') !== null;
+
+	if (!isE2ETest) {
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PZ83PG');
+	}
+</script>
+<!-- End Google Tag Manager -->
+			</head>
+<body id="homepage" class="main-homepage" >
+
+
+			    	
+	
+		
+	
+				
+												
+<div
+	class=""
+	data-banner-translations="{&quot;banner_promote_app_listing_nocalendar_test_title&quot;:&quot;Potrzebujesz specjalisty?&quot;,&quot;banner_promote_app_listing_nocalendar_test_text&quot;:&quot;Dbanie o zdrowie jest prostsze z aplikacj\u0105. Odkryj j\u0105 teraz!&quot;,&quot;banner_promote_app_listing_nocalendar_test_cta&quot;:&quot;Wypr\u00f3buj aplikacj\u0119&quot;,&quot;banner_promote_app_listing_nocalendar_test_cta2&quot;:&quot;Kontynuuj w przegl\u0105darce&quot;,&quot;banner_promote_app_listing_nocalendar_test_title2&quot;:&quot;Zadbaj o swoje zdrowie dzi\u0119ki aplikacji&quot;,&quot;banner_promote_app_listing_nocalendar_test_text2&quot;:&quot;Znajd\u017a specjalist\u00f3w w pobli\u017cu&quot;,&quot;banner_promote_app_listing_nocalendar_test_text3&quot;:&quot;Um\u00f3w wizyt\u0119, kiedy tylko jej potrzebujesz&quot;,&quot;banner_promote_app_listing_nocalendar_test_tcta3&quot;:&quot;Zainstaluj aplikacj\u0119&quot;,&quot;banner_promote_app_profile_nocalendar_test_title&quot;:&quot;Potrzebujesz specjalisty?&quot;,&quot;banner_promote_app_profile_nocalendar_test_text&quot;:&quot;Dbanie o zdrowie jest prostsze z aplikacj\u0105. Odkryj j\u0105 teraz!&quot;,&quot;banner_promote_app_profile_nocalendar_test_cta&quot;:&quot;Wypr\u00f3buj aplikacj\u0119&quot;,&quot;banner_promote_app_profile_nocalendar_test_cta2&quot;:&quot;Kontynuuj w przegl\u0105darce&quot;,&quot;banner_promote_app_profile_nocalendar_test_title2&quot;:&quot;\u0141atwe umawianie wizyt w aplikacji&quot;,&quot;banner_promote_app_profile_nocalendar_test_cta3&quot;:&quot;Otw\u00f3rz aplikacj\u0119&quot;,&quot;banner_promote_app_content_page_test_title&quot;:&quot;Martwi\u0105 ci\u0119 jakie\u015b dolegliwo\u015bci zdrowotne?&quot;,&quot;banner_promote_app_content_page_test_text&quot;:&quot;Pobierz aplikacj\u0119 i otrzymaj odpowiedzi bezpo\u015brednio od specjalisty&quot;,&quot;banner_promote_app_content_page_test_cta&quot;:&quot;Wypr\u00f3buj aplikacj\u0119&quot;,&quot;banner_promote_app_content_page_test_cta2&quot;:&quot;Kontynuuj w przegl\u0105darce&quot;,&quot;banner_promote_app_content_page_test_title2&quot;:&quot;Zadbaj o swoje zdrowie za pomoc\u0105 aplikacji&quot;,&quot;banner_promote_app_content_page_test_cta3&quot;:&quot;Otw\u00f3rz&quot;,&quot;banner_promote_app_content_booking_confirmation_V1&quot;:&quot;Dzie\u0144 dobry, oto szczeg\u00f3\u0142y wizyty. S\u0105 dost\u0119pne r\u00f3wnie\u017c w aplikacji, razem z przypomnieniami o wizycie.&quot;,&quot;banner_promote_app_content_booking_confirmation_cta_V1&quot;:&quot;Kontynuuj w aplikacji&quot;,&quot;banner_promote_app_content_booking_confirmation_V2&quot;:&quot;Dzie\u0144 dobry, dzi\u0119kuj\u0119\u00a0za um\u00f3wienie wizyty. &quot;,&quot;banner_promote_app_content_booking_confirmation_V3&quot;:&quot;\u015aled\u017a szczeg\u00f3\u0142y swoich wizyt&quot;,&quot;banner_promote_app_content_opinion_thank_you_page_title_V1&quot;:&quot;Wiadomo\u015b\u0107 od specjalisty&quot;,&quot;banner_promote_app_content_opinion_thank_you_page_V1&quot;:&quot;Dzie\u0144 dobry, dzi\u0119kuj\u0119 za podzielenie si\u0119 opini\u0105. Je\u015bli chcesz wys\u0142a\u0107 mi wiadomo\u015b\u0107, zapraszam do pobrania aplikacji.&quot;,&quot;banner_promote_app_doctor_homepage_test_tag&quot;:&quot;Polecane&quot;,&quot;banner_promote_app_doctor_homepage_test_app_title&quot;:&quot;Aplikacja ZnanyLekarz&quot;,&quot;banner_promote_app_doctor_homepage_test_cta&quot;:&quot;Otw\u00f3rz&quot;,&quot;banner_promote_app_doctor_homepage_test_browser_title&quot;:&quot;Przegl\u0105darka&quot;,&quot;banner_promote_app_doctor_homepage_test_cta2&quot;:&quot;Kontynuuj&quot;,&quot;banner_promote_app_doctor_homepage_test_cta3&quot;:&quot;Otw\u00f3rz aplikacj\u0119&quot;,&quot;banner_promote_app_doctor_homepage_test_cta4&quot;:&quot;Kontynuuj w przegl\u0105darce&quot;,&quot;banner_promote_app_doctor_homepage_test_title&quot;:&quot;ZnanyLekarz jest lepszy w aplikacji&quot;,&quot;banner_promote_app_email_footer&quot;:&quot;Zarz\u0105dzaj swoimi wizytami w aplikacji. Otrzymuj przypomnienia i wysy\u0142aj wiadomo\u015bci do specjalist\u00f3w.&quot;,&quot;download-app-generic&quot;:&quot;Pobierz aplikacj\u0119&quot;,&quot;know-more-generic&quot;:&quot;Dowiedz si\u0119 wi\u0119cej&quot;,&quot;banner-promote-app-homepage-modal-title-V2&quot;:&quot;Witaj na ZnanyLekarz&quot;,&quot;banner-promote-app-homepage-modal-text-V2&quot;:&quot;Znajd\u017a najlepszych specjalist\u00f3w i umawiaj wizyty. Pobierz aplikacj\u0119, aby uzyska\u0107 bezp\u0142atny dost\u0119p do przydatnych funkcji:&quot;,&quot;banner-promote-app-homepage-modal-text-V3-A&quot;:&quot;Umawiaj wizyty, kontaktuj si\u0119 ze specjalistami i otrzymuj przypomnienia w aplikacji.&quot;,&quot;banner-promote-app-homepage-modal-text-V3-B&quot;:&quot;Pobierz aplikacj\u0119 \u2013 umawiaj wizyty, kontaktuj si\u0119 ze specjalistami i otrzymuj przypomnienia.&quot;,&quot;banner-promote-app-homepage-modal-text-rating-V2&quot;:&quot;Nasza \u015brednia ocena na App Store to 4.1 i 5.9 na Google Play Store&quot;,&quot;banner-promote-app-benefits-1&quot;:&quot;\u0141atwo zarz\u0105dzaj swoimi wizytami&quot;,&quot;banner-promote-app-benefits-2&quot;:&quot;Wysy\u0142aj wiadomo\u015bci do specjalist\u00f3w&quot;,&quot;banner-promote-app-benefits-3&quot;:&quot;Otrzymuj powiadomienia&quot;,&quot;use-the-app-generic&quot;:&quot;Korzystaj z aplikacji&quot;,&quot;banner-promote-app-listings-descr&quot;:&quot;Por\u00f3wnuj profile i umawiaj wizyty w aplikacji&quot;,&quot;banner-promote-app-listings-title&quot;:&quot;Utw\u00f3rz swoj\u0105 list\u0119 specjalist\u00f3w&quot;,&quot;banner-promote-app-get-most-docplanner&quot;:&quot;Odkryj wszystkie mo\u017cliwo\u015bci ZnanyLekarz&quot;,&quot;banner-promote-app-more-features-title&quot;:&quot;Odkryj wi\u0119cej mo\u017cliwo\u015bci w aplikacji&quot;,&quot;banner-promote-app-listings-V2-text&quot;:&quot;Wysy\u0142aj wiadomo\u015bci do lekarzy, otrzymuj powiadomienia i wi\u0119cej!&quot;}"
+	data-id="patient-app-banner-index"
+>
+	<patient-app-banner-index
+		:init-options="{&quot;active&quot;:true,&quot;template&quot;:&quot;FullPageWithLogo&quot;,&quot;touchpoint&quot;:&quot;homepage&quot;}"
+	/>
+</div>
+
+<style>
+	.patient-app-banner-relative-placeholder {
+		height: 125px;
+	}
+	@media only screen and (min-width: 576px) {
+		.patient-app-banner-relative-placeholder {
+			display: none;
+		}
+	}
+</style>
+		
+		
+
+			
+<!--Navigation-->
+<nav
+	data-id="main-header"
+	role="navigation"
+	class="navbar navbar-dark bg-secondary navbar-expand-md navbar-custom mb-0 mx-auto px-2 py-0 px-md-1"
+>
+	<!--Inside company icon-->
+		<div class="container">
+		<!--Docplanner logo-->
+		
+<div class="m-0">
+	<a
+		href="/"
+		data-test-id="dp-logo"
+	>
+		<span class="navbar-brand p-0 ">
+			<svg width="210" height="34" viewBox="0 0 210 34" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMid meet"><path d="M198.468 11.181v3.035h6.945l-7.368 10.732v2.207h11.955v-3.035h-7.626l7.396-10.699v-2.24h-11.301zm-10.863 0v15.973h3.644v-7.992c0-2.005 1.53-4.215 4.862-4.866v-3.354c-2.288.126-4.253 1.634-5.059 2.811h-.033l-.258-2.572h-3.155zm-14.353-.309c1.583-.131 3.3-.17 4.958-.17 3.906 0 6.237 1.51 6.237 5.777v10.675h-3.276l-.163-1.598h-.043c-1.123 1.21-2.755 1.917-4.845 1.917-2.768 0-4.967-1.793-4.967-5.345 0-3.304 2.755-6.381 9.651-4.917v-.962c0-1.904-1.116-2.436-3.315-2.436-1.35 0-2.495.091-4.236.24v-3.182zm7.551 8.867c-2.921-.743-5.843.17-5.843 2.428 0 1.498.994 2.378 2.476 2.312 1.168-.052 2.454-.57 3.367-1.379v-3.361zm-19.878 1.652c.463-.296.991-.626 1.487-1.021l3.999 6.784h4.098l-5.387-9.123c1.983-1.943 3.602-4.216 4.957-6.85h-3.867c-1.355 2.404-3.272 4.644-5.288 6.356v-12.746l-3.643.422v21.94h3.643v-5.764zm-20.426-2.174v-.065c0-4.912 2.391-8.449 7.336-8.449 4.585 0 6.714 2.653 6.714 8.22 0 .589-.041 1.403-.105 2.003h-10.123c.262 2.25 1.573 3.594 4.264 3.594 1.703 0 3.303-.159 4.786-.353v3.051c-1.666.261-3.08.417-4.882.417-5.24 0-7.991-2.62-7.991-8.417zm3.766-1.008h6.583c0-2.499-.655-4.472-3.111-4.472-2.554 0-3.406 2.105-3.471 4.472zm-16.478-13.417v22.362h11.815v-3.616h-7.834v-18.746h-3.981zm-16.215 6.389c1.153 4.545 3.853 13.114 5.264 16.452-.912 2.063-2.387 3.106-5.165 2.951v2.865c5.997.804 7.628-3.66 8.76-6.295 1.132-2.636 4.018-11.428 5.204-15.973h-3.82c-.659 2.997-2.305 8.892-3.162 11.889h-.066c-.889-2.964-2.536-8.859-3.162-11.889h-3.853zm-15.893 0v15.973h3.644v-8.401c0-2.543 1.985-4.577 3.765-4.702 1.964-.138 2.964.879 2.964 3.476v9.626h3.644v-10.377c0-4.069-1.87-6.075-5.637-6.075-2.231 0-4.075 1.259-4.953 2.636h-.043c-.065-.571-.212-2.156-.212-2.156h-3.171zm-14.353-.309c1.583-.131 3.3-.17 4.958-.17 3.906 0 6.237 1.51 6.237 5.777v10.675h-3.276l-.163-1.598h-.043c-1.123 1.21-2.755 1.917-4.845 1.917-2.768 0-4.967-1.793-4.967-5.345 0-3.304 2.755-6.381 9.65-4.917v-.962c0-1.904-1.116-2.436-3.315-2.436-1.35 0-2.495.091-4.236.24v-3.182zm7.551 8.867c-2.921-.743-5.843.17-5.843 2.428 0 1.498.994 2.378 2.476 2.312 1.168-.052 2.454-.57 3.367-1.379v-3.361zm-26.023-8.557v15.973h3.644v-8.401c0-2.543 1.985-4.577 3.765-4.702 1.964-.138 2.964.879 2.964 3.476v9.626h3.644v-10.377c0-4.069-1.87-6.075-5.637-6.075-2.231 0-4.075 1.259-4.953 2.636h-.043c-.065-.571-.212-2.156-.212-2.156h-3.171zm-17.541-6.389v3.616h9.356l-9.945 15.657v3.089h15.121v-3.616h-10.086l9.92-15.727v-3.019h-14.366zm-26.71 21.027l5.272 6.127 5.255-3.818-5.13-8.488c-2.317 1.429-4.589 4.199-5.396 6.179zm-7.578 6.118c4.332-8.834 12.605-15.378 22.519-17.331l-2.015-6.206c-12.028 1.358-22.261 8.648-27.737 18.884l7.233 4.652zm1.579-21.069l-10.598-2.495-2.006 6.188 7.358 3.106c1.509-1.526 3.196-2.857 5.05-3.994 2.512-1.544 4.705-2.566 8.433-3.844l-.826-9.828h-6.498l-.914 10.868z" fill="#fff"/></svg>		</span>
+			</a>
+</div>
+		<!--Toggle buttons-->
+		
+<button
+	class="navbar-toggler navbar-mobile-nav-toggle collapsed"
+	data-id="navbar-toggle"
+	data-target="[data-id='navbar-right-collapse']"
+	data-test-id="navbar-hamburger-menu"
+	data-toggle="collapse"
+	type="button"
+>
+	<div class="hamburger">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar icon-bar-one"></span>
+		<span class="icon-bar icon-bar-two"></span>
+		<span class="icon-bar icon-bar-three"></span>
+	</div>
+</button>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+				
+					
+<div class="navbar-cross-nav d-none d-xl-flex">
+	<a class="bg-secondary-dark flex-grow-1 text-center">
+		Specjaliści
+	</a>
+
+	<a
+		class="flex-grow-1 text-center"
+		href="https://badania.znanylekarz.pl/?utm_source=Znanylekarz&amp;utm_medium=TopBar&amp;utm_campaign=HPswitcher"
+	>
+		Badania
+	</a>
+</div>
+		
+
+		<div class="navbar-collapse align-items-center px-2 pr-md-0 collapse"
+		     data-id="navbar-right-collapse"
+		>
+			<ul
+				class="navbar-nav navbar-right align-items-md-center ml-auto"
+				data-id="top-navigation"
+				data-test-id="navbar"
+			>
+				
+	<li class="nav-item">
+		<a class="nav-link" href="https://www.znanylekarz.pl/gdpr/patient-data" title="Prywatność danych">
+			Prywatność danych
+		</a>
+	</li>
+
+			<li class="nav-item">
+			<a class="nav-link" href="https://www.znanylekarz.pl/pytania-odpowiedzi" title="Zapytaj lekarza">
+				Zapytaj lekarza
+			</a>
+		</li>
+	
+			
+		<li class="nav-item dropdown">
+	<a
+        class="nav-link justify-content-between"
+        href="#"
+	    data-toggle="dropdown"
+	>
+		Zarejestruj się
+		<i class="svg-icon svg-icon-caret-right svg-icon-size-12 svg-icon-color-white d-block d-md-none ml-0-5" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.293 20.707a1 1 0 0 1 0-1.414L14.586 12 7.293 4.707a1 1 0 0 1 1.414-1.414l8 8a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-1.414 0Z"/></svg></i>
+		<i class="svg-icon svg-icon-caret svg-icon-size-12 svg-icon-color-white d-none d-md-block ml-0-5" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3.293 7.293a1 1 0 0 1 1.414 0L12 14.586l7.293-7.293a1 1 0 1 1 1.414 1.414l-8 8a1 1 0 0 1-1.414 0l-8-8a1 1 0 0 1 0-1.414Z"/></svg></i>
+	</a>
+
+	<div class="dropdown-menu dropdown-menu-right">
+		<a
+			href="#"
+			class="dropdown-item d-flex d-md-none"
+			data-id="dropdown-back-btn"
+		>
+			<i class="svg-icon svg-icon-caret-left svg-icon-size-12 svg-icon-color-white" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.293 12.707a1 1 0 0 1 0-1.414l8-8a1 1 0 1 1 1.414 1.414L9.414 12l7.293 7.293a1 1 0 0 1-1.414 1.414l-8-8Z"/></svg></i>
+			<span class="dropdown-item-text">Zarejestruj się</span>
+		</a>
+		<button
+			class="dropdown-item"
+			data-id="navbar-link"
+			data-url="https://l.znanylekarz.pl/signup?redirect_uri=https%3A//www.znanylekarz.pl/social-connect/pl_sso"
+			data-test-id="register-as-patient"
+			title="jako pacjent"
+		>
+			<i class="svg-icon svg-icon-patients svg-icon-size-12 svg-icon-color-white d-block d-md-none" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 10c1.66 0 2.99-1.34 2.99-3S17.66 4 16 4c-1.66 0-3 1.34-3 3s1.34 3 3 3Zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 4 8 4C6.34 4 5 5.34 5 7s1.34 3 3 3Zm0 2c-2.33 0-7 1.17-7 3.5V19c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5c0-2.33-4.67-3.5-7-3.5Zm8 0c-.29 0-.62.02-.97.05.02.01.03.03.04.04 1.14.83 1.93 1.94 1.93 3.41V19c0 .35-.07.69-.18 1H22c.55 0 1-.45 1-1v-3.5c0-2.33-4.67-3.5-7-3.5Z"/></svg></i>
+			<span class="dropdown-item-text">jako pacjent</span>
+		</button>
+		<button
+			class="dropdown-item"
+			data-id="navbar-link"
+			data-url="https://www.znanylekarz.pl/rejestracja-lekarz"
+			data-test-id="register-as-doctor"
+			title="jako lekarz"
+		>
+			<i class="svg-icon svg-icon-doctor svg-icon-size-12 svg-icon-color-white d-block d-md-none" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8 4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v3H8V4Zm.126 4a4 4 0 0 0 7.748 0H8.126Zm-.376 5.73C5.752 14.384 4 15.475 4 17v3c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-3c0-1.525-1.752-2.616-3.75-3.27v1.686c.625.3.974.95 1.156 1.455.264.733.344 1.577.344 2.129a.75.75 0 0 1-1.5 0c0-.448-.07-1.104-.256-1.621-.205-.572-.408-.629-.494-.629-.086 0-.289.057-.494.629-.186.517-.256 1.173-.256 1.621a.75.75 0 0 1-1.5 0c0-.552.08-1.396.344-2.129.182-.504.53-1.155 1.156-1.455v-2.09C13.74 13.11 12.762 13 12 13s-1.74.11-2.75.327v2.923a1.25 1.25 0 1 1-1.5 0v-2.52ZM12 3a.5.5 0 0 0-.5.5V4H11a.5.5 0 0 0 0 1h.5v.5a.5.5 0 0 0 1 0V5h.5a.5.5 0 0 0 0-1h-.5v-.5A.5.5 0 0 0 12 3Z"/></svg></i>
+			<span class="dropdown-item-text">jako lekarz</span>
+		</button>
+					<button
+				class="dropdown-item"
+				data-id="navbar-link"
+				data-url="https://www.znanylekarz.pl/rejestracja-placowka"
+				data-test-id="register-as-facility"
+				title="jako placówka"
+			>
+				<i class="svg-icon svg-icon-facility svg-icon-size-12 svg-icon-color-white d-block d-md-none" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 11V5c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v2H5c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h5c.55 0 1-.45 1-1v-3h2v3c0 .55.45 1 1 1h5c1.1 0 2-.9 2-2v-6c0-1.1-.9-2-2-2h-2ZM7 19H5v-2h2v2Zm0-4H5v-2h2v2Zm0-4H5V9h2v2Zm4 4H9v-2h2v2Zm0-4H9V9h2v2Zm0-4H9V5h2v2Zm4 8h-2v-2h2v2Zm0-4h-2V9h2v2Zm0-4h-2V5h2v2Zm4 12h-2v-2h2v2Zm0-4h-2v-2h2v2Z"/></svg></i>
+				<span class="dropdown-item-text">jako placówka</span>
+			</button>
+			</div>
+</li>
+
+	
+
+	<li class="nav-item">
+							
+		<a
+			href="#"
+			class="nav-link mr-0-5"
+			data-id="navbar-link"
+			data-test-id="navbar-login"
+			data-url="https://www.znanylekarz.pl/social-connect/pl_sso"
+			title="Zaloguj się"
+		>
+			Zaloguj się
+		</a>
+	</li>
+
+			<li class="dropdown nav-item navbar-btn">
+			<a
+				href="#"
+				class="btn btn-light d-none d-md-flex"
+				data-toggle="dropdown"
+			>
+				Dla profesjonalistów
+			</a>
+			<a
+				href="#"
+				class="nav-link justify-content-between d-md-none"
+				data-toggle="dropdown"
+			>
+				Dla profesjonalistów
+				<i class="svg-icon svg-icon-caret-right svg-icon-size-12 svg-icon-color-white ml-0-5" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.293 20.707a1 1 0 0 1 0-1.414L14.586 12 7.293 4.707a1 1 0 0 1 1.414-1.414l8 8a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-1.414 0Z"/></svg></i>
+			</a>
+			<div class="dropdown-menu dropdown-menu-right">
+				<a
+					href="#"
+					class="dropdown-item dropdown-item-back d-flex d-md-none"
+					data-id="dropdown-back-btn"
+				>
+					<i class="svg-icon svg-icon-caret-left svg-icon-size-12 svg-icon-color-white" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.293 12.707a1 1 0 0 1 0-1.414l8-8a1 1 0 1 1 1.414 1.414L9.414 12l7.293 7.293a1 1 0 0 1-1.414 1.414l-8-8Z"/></svg></i>
+					<span class="dropdown-item-text">Dla profesjonalistów</span>
+				</a>
+									<a
+						href="https://www.znanylekarz.pl/rejestracja-lekarz"
+						class="dropdown-item"
+					>
+						<span class="dropdown-item-text">Zarejestruj się</span>
+					</a>
+				
+				<a
+					href="//pro.znanylekarz.pl?utm_source=MKTP&amp;utm_medium=referral&amp;utm_campaign=top-nav"
+					class="dropdown-item"
+					target="_blank"
+				>
+					<span class="dropdown-item-text">ZnanyLekarz Pro</span>
+				</a>
+
+				
+							</div>
+		</li>
+
+				</ul>
+		</div>
+
+	</div>
+</nav>
+
+	<div class="bg-secondary ">
+		<div class="container d-flex d-md-none">
+			
+<div class="navbar-cross-nav d-flex">
+	<a class="bg-secondary-dark flex-grow-1 text-center">
+		Specjaliści
+	</a>
+
+	<a
+		class="flex-grow-1 text-center"
+		href="https://badania.znanylekarz.pl/?utm_source=Znanylekarz&amp;utm_medium=TopBar&amp;utm_campaign=HPswitcher"
+	>
+		Badania
+	</a>
+</div>
+		</div>
+	</div>
+
+	
+		
+
+		
+		<div
+	data-id="abandoned-cart-box"
+	data-view="profile"
+></div>
+	
+	<section
+		id="intro"
+		class="pt-5 pb-1 pb-sm-5"
+	>
+		<div data-id="intro-bkg">
+			<div
+				class="intro-bkg intro-bkg-offline-consultation active"
+				data-intro-bkg="office-visit"
+			></div>
+			<div
+				class="intro-bkg intro-bkg-online-consultation"
+				data-intro-bkg="online-consultation"
+			></div>
+		</div>
+		<div class="container text-center text-sm-left">
+			<div class="row">
+				<h1 class="col-lg-12 mt-0 mt-sm-12 intro-header">
+					Znajdź lekarza i umów wizytę
+				</h1>
+
+				<h2 class="col-lg-12 h3 intro-header">
+					Szukaj wśród 146 000 lekarzy.
+				</h2>
+
+				<div class="col-lg-9">
+											<div
+							id="homepage-search"
+							data-id="contextual-search-nav"
+						>
+							<div class="d-flex align-items-center pt-1 mb-1 navigation nav text-left">
+								<a
+									class="btn btn-lg mr-0-5 focus"
+									data-nav-link="office-visit"
+									data-background="office-visit"
+									data-ga-label="Type chooser - Office"
+										data-ga-event="click"
+	data-ga-interaction="true"
+	data-ga-category="Homepage - Search box"
+	data-ga-action="Doctor Discovery - Change Search type"
+
+								>
+									<i class="svg-icon svg-icon-facility svg-icon-size-18 svg-icon-color-white mr-0-5" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 11V5c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v2H5c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h5c.55 0 1-.45 1-1v-3h2v3c0 .55.45 1 1 1h5c1.1 0 2-.9 2-2v-6c0-1.1-.9-2-2-2h-2ZM7 19H5v-2h2v2Zm0-4H5v-2h2v2Zm0-4H5V9h2v2Zm4 4H9v-2h2v2Zm0-4H9V9h2v2Zm0-4H9V5h2v2Zm4 8h-2v-2h2v2Zm0-4h-2V9h2v2Zm0-4h-2V5h2v2Zm4 12h-2v-2h2v2Zm0-4h-2v-2h2v2Z"/></svg></i>W gabinecie</a>
+
+								<a
+									class="btn btn-lg mr-0-5"
+									data-nav-link="online-consultation"
+									data-test-id="online-consultation-tab"
+									data-background="online-consultation"
+									data-ga-label="Type chooser - Online"
+										data-ga-event="click"
+	data-ga-interaction="true"
+	data-ga-category="Homepage - Search box"
+	data-ga-action="Doctor Discovery - Change Search type"
+
+								>
+									<i class="svg-icon svg-icon-video-consultation svg-icon-size-18 svg-icon-color-white mr-0-5" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-3l2.293 2.293c.63.63 1.707.184 1.707-.707V8.414c0-.89-1.077-1.337-1.707-.707L17 10V8a2 2 0 0 0-2-2H5Z"/></svg></i>Online</a>
+
+																	<a
+										class="btn btn-lg"
+										data-nav-link="covid-test"
+										data-background="office-visit"
+										data-ga-label="Type chooser - Covid"
+											data-ga-event="click"
+	data-ga-interaction="true"
+	data-ga-category="Homepage - Search box"
+	data-ga-action="Doctor Discovery - Change Search type"
+
+									>
+										<i class="svg-icon svg-icon-virus svg-icon-size-16 svg-icon-color-white mr-0-5" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.25 10.5c-.41 0-.75.34-.75.75h-1.54a6.978 6.978 0 0 0-1.52-3.65l1.09-1.09.01.01c.29.29.77.29 1.06 0 .29-.29.29-.77 0-1.06L18.54 4.4a.754.754 0 0 0-1.06 0c-.29.29-.29.76-.01 1.05l-1.09 1.09a7.015 7.015 0 0 0-3.64-1.51V3.5h.01c.41 0 .75-.34.75-.75S13.16 2 12.75 2h-1.5c-.41 0-.75.34-.75.75s.33.74.74.75v1.55c-1.37.14-2.62.69-3.64 1.51L6.51 5.47l.01-.01c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0L4.4 5.46c-.29.29-.29.77 0 1.06.29.29.76.29 1.05.01l1.09 1.09a6.89 6.89 0 0 0-1.5 3.63H3.5c0-.41-.34-.75-.75-.75s-.75.34-.75.75v1.5c0 .41.34.75.75.75s.75-.34.75-.75h1.54c.15 1.37.69 2.61 1.5 3.63l-1.09 1.09a.742.742 0 0 0-1.05.01c-.29.29-.29.77 0 1.06l1.06 1.06c.29.29.77.29 1.06 0 .29-.29.29-.77 0-1.06l-.01-.01 1.09-1.09c1.02.82 2.26 1.36 3.63 1.51v1.55c-.41.01-.74.34-.74.75s.34.75.75.75h1.5c.41 0 .75-.34.75-.75s-.34-.75-.75-.75h-.01v-1.54c1.37-.14 2.62-.69 3.64-1.51l1.09 1.09c-.29.29-.28.76.01 1.05.29.29.77.29 1.06 0l1.06-1.06c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-.01.01-1.09-1.09a7.025 7.025 0 0 0 1.52-3.65h1.54c0 .41.34.75.75.75s.75-.34.75-.75v-1.5c.01-.4-.33-.74-.74-.74ZM13.75 8c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1ZM12 13c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1Zm-1.75-5c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1ZM8.5 13c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1Zm1.75 3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1Zm3.5 0c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1Zm.75-4c0-.55.45-1 1-1s1 .45 1 1-.45 1-1 1-1-.45-1-1Z"/></svg></i>Testy COVID-19</a>
+															</div>
+
+							<div class="tab-content">
+								<div
+									class="tab-pane active"
+									data-tab-id="office-visit"
+								>
+									
+<div
+	data-topsearch="false"
+	id="search"
+	class=""
+>
+	<div data-id="search-autocomplete-vue-app">
+		<search-autocomplete
+			:is-search-widget-placeholder="false"
+			:suggested-items="[{&quot;specialization.id&quot;:57,&quot;specialization.name&quot;:&quot;ginekolog&quot;},{&quot;specialization.id&quot;:76,&quot;specialization.name&quot;:&quot;ortopeda&quot;},{&quot;specialization.id&quot;:103,&quot;specialization.name&quot;:&quot;stomatolog&quot;},{&quot;specialization.id&quot;:93,&quot;specialization.name&quot;:&quot;psycholog&quot;},{&quot;specialization.id&quot;:81,&quot;specialization.name&quot;:&quot;psychiatra&quot;},{&quot;specialization.id&quot;:50,&quot;specialization.name&quot;:&quot;chirurg&quot;},{&quot;specialization.id&quot;:52,&quot;specialization.name&quot;:&quot;dermatolog&quot;},{&quot;specialization.id&quot;:63,&quot;specialization.name&quot;:&quot;laryngolog&quot;},{&quot;specialization.id&quot;:84,&quot;specialization.name&quot;:&quot;fizjoterapeuta&quot;},{&quot;specialization.id&quot;:61,&quot;specialization.name&quot;:&quot;internista&quot;},{&quot;specialization.id&quot;:71,&quot;specialization.name&quot;:&quot;neurolog&quot;},{&quot;specialization.id&quot;:73,&quot;specialization.name&quot;:&quot;okulista&quot;},{&quot;specialization.id&quot;:53,&quot;specialization.name&quot;:&quot;endokrynolog&quot;},{&quot;specialization.id&quot;:78,&quot;specialization.name&quot;:&quot;pediatra&quot;},{&quot;specialization.id&quot;:90,&quot;specialization.name&quot;:&quot;urolog&quot;},{&quot;specialization.id&quot;:62,&quot;specialization.name&quot;:&quot;kardiolog&quot;},{&quot;specialization.id&quot;:152,&quot;specialization.name&quot;:&quot;psychoterapeuta&quot;},{&quot;specialization.id&quot;:70,&quot;specialization.name&quot;:&quot;neurochirurg&quot;},{&quot;specialization.id&quot;:54,&quot;specialization.name&quot;:&quot;gastrolog&quot;},{&quot;specialization.id&quot;:66,&quot;specialization.name&quot;:&quot;lekarz rodzinny&quot;},{&quot;specialization.id&quot;:83,&quot;specialization.name&quot;:&quot;radiolog&quot;},{&quot;specialization.id&quot;:98,&quot;specialization.name&quot;:&quot;dietetyk&quot;},{&quot;specialization.id&quot;:74,&quot;specialization.name&quot;:&quot;onkolog&quot;},{&quot;specialization.id&quot;:102,&quot;specialization.name&quot;:&quot;specjalista medycyny estetycznej&quot;},{&quot;specialization.id&quot;:45,&quot;specialization.name&quot;:&quot;alergolog&quot;},{&quot;specialization.id&quot;:86,&quot;specialization.name&quot;:&quot;reumatolog&quot;},{&quot;specialization.id&quot;:75,&quot;specialization.name&quot;:&quot;ortodonta&quot;},{&quot;specialization.id&quot;:94,&quot;specialization.name&quot;:&quot;diabetolog&quot;},{&quot;specialization.id&quot;:108,&quot;specialization.name&quot;:&quot;chirurg naczyniowy&quot;},{&quot;specialization.id&quot;:82,&quot;specialization.name&quot;:&quot;pulmonolog&quot;},{&quot;specialization.id&quot;:51,&quot;specialization.name&quot;:&quot;chirurg plastyczny&quot;},{&quot;specialization.id&quot;:140,&quot;specialization.name&quot;:&quot;lekarz w trakcie specjalizacji&quot;},{&quot;specialization.id&quot;:104,&quot;specialization.name&quot;:&quot;logopeda&quot;},{&quot;specialization.id&quot;:80,&quot;specialization.name&quot;:&quot;proktolog&quot;},{&quot;specialization.id&quot;:58,&quot;specialization.name&quot;:&quot;hematolog&quot;},{&quot;specialization.id&quot;:118,&quot;specialization.name&quot;:&quot;neurolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:65,&quot;specialization.name&quot;:&quot;lekarz medycyny pracy&quot;},{&quot;specialization.id&quot;:92,&quot;specialization.name&quot;:&quot;weterynarz&quot;},{&quot;specialization.id&quot;:144,&quot;specialization.name&quot;:&quot;ortopeda dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:69,&quot;specialization.name&quot;:&quot;nefrolog&quot;},{&quot;specialization.id&quot;:176,&quot;specialization.name&quot;:&quot;osteopata&quot;},{&quot;specialization.id&quot;:120,&quot;specialization.name&quot;:&quot;chirurg dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:87,&quot;specialization.name&quot;:&quot;seksuolog&quot;},{&quot;specialization.id&quot;:112,&quot;specialization.name&quot;:&quot;lekarz chor\u00f3b zaka\u017anych&quot;},{&quot;specialization.id&quot;:47,&quot;specialization.name&quot;:&quot;anestezjolog&quot;},{&quot;specialization.id&quot;:96,&quot;specialization.name&quot;:&quot;diagnostyk&quot;},{&quot;specialization.id&quot;:110,&quot;specialization.name&quot;:&quot;chirurg szcz\u0119kowo-twarzowy&quot;},{&quot;specialization.id&quot;:148,&quot;specialization.name&quot;:&quot;psychiatra dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:79,&quot;specialization.name&quot;:&quot;po\u0142o\u017cna\/po\u0142o\u017cny&quot;},{&quot;specialization.id&quot;:122,&quot;specialization.name&quot;:&quot;kardiolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:160,&quot;specialization.name&quot;:&quot;chirurg stomatologiczny&quot;},{&quot;specialization.id&quot;:161,&quot;specialization.name&quot;:&quot;gastrolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:126,&quot;specialization.name&quot;:&quot;laryngolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:128,&quot;specialization.name&quot;:&quot;flebolog&quot;},{&quot;specialization.id&quot;:162,&quot;specialization.name&quot;:&quot;psycholog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:158,&quot;specialization.name&quot;:&quot;optometrysta&quot;},{&quot;specialization.id&quot;:106,&quot;specialization.name&quot;:&quot;lekarz rehabilitacji medycznej&quot;},{&quot;specialization.id&quot;:138,&quot;specialization.name&quot;:&quot;kardiochirurg&quot;},{&quot;specialization.id&quot;:168,&quot;specialization.name&quot;:&quot;endokrynolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:156,&quot;specialization.name&quot;:&quot;urolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:180,&quot;specialization.name&quot;:&quot;ultrasonografista&quot;},{&quot;specialization.id&quot;:130,&quot;specialization.name&quot;:&quot;immunolog&quot;},{&quot;specialization.id&quot;:49,&quot;specialization.name&quot;:&quot;audiolog, foniatra&quot;},{&quot;specialization.id&quot;:46,&quot;specialization.name&quot;:&quot;androlog&quot;},{&quot;specialization.id&quot;:146,&quot;specialization.name&quot;:&quot;okulista dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:184,&quot;specialization.name&quot;:&quot;fizjoterapeuta dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:159,&quot;specialization.name&quot;:&quot;hepatolog&quot;},{&quot;specialization.id&quot;:56,&quot;specialization.name&quot;:&quot;geriatra&quot;},{&quot;specialization.id&quot;:167,&quot;specialization.name&quot;:&quot;angiolog&quot;},{&quot;specialization.id&quot;:68,&quot;specialization.name&quot;:&quot;lekarz sportowy&quot;},{&quot;specialization.id&quot;:124,&quot;specialization.name&quot;:&quot;stomatolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:164,&quot;specialization.name&quot;:&quot;higienistka stomatologiczna&quot;},{&quot;specialization.id&quot;:55,&quot;specialization.name&quot;:&quot;genetyk&quot;},{&quot;specialization.id&quot;:77,&quot;specialization.name&quot;:&quot;patomorfolog&quot;},{&quot;specialization.id&quot;:134,&quot;specialization.name&quot;:&quot;protetyk&quot;},{&quot;specialization.id&quot;:172,&quot;specialization.name&quot;:&quot;alergolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:175,&quot;specialization.name&quot;:&quot;perinatolog&quot;},{&quot;specialization.id&quot;:132,&quot;specialization.name&quot;:&quot;hipertensjolog&quot;},{&quot;specialization.id&quot;:181,&quot;specialization.name&quot;:&quot;hematolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:173,&quot;specialization.name&quot;:&quot;pulmonolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:174,&quot;specialization.name&quot;:&quot;nefrolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:136,&quot;specialization.name&quot;:&quot;neonatolog&quot;},{&quot;specialization.id&quot;:64,&quot;specialization.name&quot;:&quot;bariatra&quot;},{&quot;specialization.id&quot;:186,&quot;specialization.name&quot;:&quot;chirurg klatki piersiowej&quot;},{&quot;specialization.id&quot;:177,&quot;specialization.name&quot;:&quot;ortoptysta&quot;},{&quot;specialization.id&quot;:67,&quot;specialization.name&quot;:&quot;bieg\u0142y s\u0105dowy&quot;},{&quot;specialization.id&quot;:183,&quot;specialization.name&quot;:&quot;radioterapeuta&quot;},{&quot;specialization.id&quot;:182,&quot;specialization.name&quot;:&quot;onkolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:185,&quot;specialization.name&quot;:&quot;Covid Test&quot;},{&quot;specialization.id&quot;:170,&quot;specialization.name&quot;:&quot;neurochirurg dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:188,&quot;specialization.name&quot;:&quot;reumatolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:189,&quot;specialization.name&quot;:&quot;psychoonkolog&quot;},{&quot;specialization.id&quot;:191,&quot;specialization.name&quot;:&quot;Dermatolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:150,&quot;specialization.name&quot;:&quot;transplantolog&quot;},{&quot;specialization.id&quot;:169,&quot;specialization.name&quot;:&quot;ginekolog dzieci\u0119cy&quot;},{&quot;specialization.id&quot;:163,&quot;specialization.name&quot;:&quot;angiochirurg&quot;},{&quot;specialization.id&quot;:154,&quot;specialization.name&quot;:&quot;lekarz medycyny ratunkowej&quot;},{&quot;specialization.id&quot;:190,&quot;specialization.name&quot;:&quot;psychotraumatolog&quot;},{&quot;specialization.id&quot;:60,&quot;specialization.name&quot;:&quot;homeopata&quot;},{&quot;specialization.id&quot;:171,&quot;specialization.name&quot;:&quot;diabetolog dzieci\u0119cy&quot;}]"
+			:suggested-places="[&quot;Warszawa&quot;,&quot;Krak\u00f3w&quot;,&quot;\u0141\u00f3d\u017a&quot;,&quot;Wroc\u0142aw&quot;,&quot;Pozna\u0144&quot;,&quot;Gda\u0144sk&quot;,&quot;Szczecin&quot;,&quot;Bydgoszcz&quot;,&quot;Lublin&quot;,&quot;Katowice&quot;,&quot;Bia\u0142ystok&quot;,&quot;Gdynia&quot;,&quot;Cz\u0119stochowa&quot;,&quot;Radom&quot;,&quot;Sosnowiec&quot;]"
+			:top-search="false"
+			:widget="false"
+			search-location=""
+			search-query=""
+			query-data-id="autocomplete-search"
+			location-data-id="autocomplete-location"
+		>
+			
+
+
+<div class="row">
+	<div class="col-md-5 col-12 specialists-col">
+		<div class="d-flex align-items-center">
+			<input
+				placeholder="specjalizacja lub nazwisko"
+				class="form-control search-field mb-1 mb-md-0"
+				value=""
+				autocomplete="off"
+				tabindex="1"
+				type="text"
+				name="q"
+				data-id="autocomplete-search"
+			/>
+
+			<i class="svg-icon svg-icon-caret svg-icon-size-12 svg-icon-color-white icon-trigger" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3.293 7.293a1 1 0 0 1 1.414 0L12 14.586l7.293-7.293a1 1 0 1 1 1.414 1.414l-8 8a1 1 0 0 1-1.414 0l-8-8a1 1 0 0 1 0-1.414Z"/></svg></i>
+		</div>
+	</div>
+
+	<div class="col-md-5 col-12 city-col">
+		<div class="d-flex align-items-center">
+			<input
+				placeholder="miasto lub dzielnica"
+				value=""
+				class="form-control search-field mb-1 mb-md-0"
+				autocomplete="off"
+				tabindex="2"
+				type="text"
+				name="loc"
+				data-id="autocomplete-location"
+			/>
+
+			<i class="svg-icon svg-icon-caret svg-icon-size-12 svg-icon-color-white icon-trigger" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3.293 7.293a1 1 0 0 1 1.414 0L12 14.586l7.293-7.293a1 1 0 1 1 1.414 1.414l-8 8a1 1 0 0 1-1.414 0l-8-8a1 1 0 0 1 0-1.414Z"/></svg></i>
+		</div>
+	</div>
+
+	<div class="col-md-2 col-12 button-col">
+		<button
+			class="btn btn-block btn-lg search-button btn-primary"
+			title="Szukaj"
+			tabindex="3"
+		>
+
+			<i class="svg-icon svg-icon-search svg-icon-color-white" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14 9.5a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0Zm-.665 5.249a6.5 6.5 0 1 1 1.414-1.414l4.958 4.958a1 1 0 0 1-1.414 1.414l-4.958-4.958Z"/></svg></i>
+
+			<span class="ml-0-5">Szukaj</span>
+		</button>
+	</div>
+</div>
+		</search-autocomplete>
+	</div>
+</div>
+
+								</div>
+
+								<div
+	class="tab-pane"
+	data-id="online-consultation-search-vue"
+	data-tab-id="online-consultation"
+	data-test-id="online-consultation"
+>
+	<online-consultation-search :specializations="[{&quot;id&quot;:45,&quot;name&quot;:&quot;alergolog&quot;,&quot;urlname&quot;:&quot;alergolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:46,&quot;name&quot;:&quot;androlog&quot;,&quot;urlname&quot;:&quot;androlog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:47,&quot;name&quot;:&quot;anestezjolog&quot;,&quot;urlname&quot;:&quot;anestezjolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:49,&quot;name&quot;:&quot;audiolog, foniatra&quot;,&quot;urlname&quot;:&quot;audiolog-foniatra&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:50,&quot;name&quot;:&quot;chirurg&quot;,&quot;urlname&quot;:&quot;chirurg&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:51,&quot;name&quot;:&quot;chirurg plastyczny&quot;,&quot;urlname&quot;:&quot;chirurg-plastyczny&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:52,&quot;name&quot;:&quot;dermatolog&quot;,&quot;urlname&quot;:&quot;dermatolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:53,&quot;name&quot;:&quot;endokrynolog&quot;,&quot;urlname&quot;:&quot;endokrynolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:54,&quot;name&quot;:&quot;gastrolog&quot;,&quot;urlname&quot;:&quot;gastrolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:55,&quot;name&quot;:&quot;genetyk&quot;,&quot;urlname&quot;:&quot;genetyk&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:56,&quot;name&quot;:&quot;geriatra&quot;,&quot;urlname&quot;:&quot;geriatra&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:57,&quot;name&quot;:&quot;ginekolog&quot;,&quot;urlname&quot;:&quot;ginekolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:58,&quot;name&quot;:&quot;hematolog&quot;,&quot;urlname&quot;:&quot;hematolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:61,&quot;name&quot;:&quot;internista&quot;,&quot;urlname&quot;:&quot;internista&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:62,&quot;name&quot;:&quot;kardiolog&quot;,&quot;urlname&quot;:&quot;kardiolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:63,&quot;name&quot;:&quot;laryngolog&quot;,&quot;urlname&quot;:&quot;laryngolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:64,&quot;name&quot;:&quot;bariatra&quot;,&quot;urlname&quot;:&quot;bariatra&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:65,&quot;name&quot;:&quot;lekarz medycyny pracy&quot;,&quot;urlname&quot;:&quot;lekarz-medycyny-pracy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:66,&quot;name&quot;:&quot;lekarz rodzinny&quot;,&quot;urlname&quot;:&quot;lekarz-rodzinny&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:67,&quot;name&quot;:&quot;bieg\u0142y s\u0105dowy&quot;,&quot;urlname&quot;:&quot;biegly-sadowy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:68,&quot;name&quot;:&quot;lekarz sportowy&quot;,&quot;urlname&quot;:&quot;lekarz-sportowy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:69,&quot;name&quot;:&quot;nefrolog&quot;,&quot;urlname&quot;:&quot;nefrolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:70,&quot;name&quot;:&quot;neurochirurg&quot;,&quot;urlname&quot;:&quot;neurochirurg&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:71,&quot;name&quot;:&quot;neurolog&quot;,&quot;urlname&quot;:&quot;neurolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:73,&quot;name&quot;:&quot;okulista&quot;,&quot;urlname&quot;:&quot;okulista&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:74,&quot;name&quot;:&quot;onkolog&quot;,&quot;urlname&quot;:&quot;onkolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:75,&quot;name&quot;:&quot;ortodonta&quot;,&quot;urlname&quot;:&quot;ortodonta&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:76,&quot;name&quot;:&quot;ortopeda&quot;,&quot;urlname&quot;:&quot;ortopeda&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:77,&quot;name&quot;:&quot;patomorfolog&quot;,&quot;urlname&quot;:&quot;patomorfolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:78,&quot;name&quot;:&quot;pediatra&quot;,&quot;urlname&quot;:&quot;pediatra&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:79,&quot;name&quot;:&quot;po\u0142o\u017cna\/po\u0142o\u017cny&quot;,&quot;urlname&quot;:&quot;polozna&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:80,&quot;name&quot;:&quot;proktolog&quot;,&quot;urlname&quot;:&quot;proktolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:81,&quot;name&quot;:&quot;psychiatra&quot;,&quot;urlname&quot;:&quot;psychiatra&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:82,&quot;name&quot;:&quot;pulmonolog&quot;,&quot;urlname&quot;:&quot;pulmonolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:83,&quot;name&quot;:&quot;radiolog&quot;,&quot;urlname&quot;:&quot;radiolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:84,&quot;name&quot;:&quot;fizjoterapeuta&quot;,&quot;urlname&quot;:&quot;fizjoterapeuta&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:86,&quot;name&quot;:&quot;reumatolog&quot;,&quot;urlname&quot;:&quot;reumatolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:87,&quot;name&quot;:&quot;seksuolog&quot;,&quot;urlname&quot;:&quot;seksuolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:90,&quot;name&quot;:&quot;urolog&quot;,&quot;urlname&quot;:&quot;urolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:92,&quot;name&quot;:&quot;weterynarz&quot;,&quot;urlname&quot;:&quot;weterynarz&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:93,&quot;name&quot;:&quot;psycholog&quot;,&quot;urlname&quot;:&quot;psycholog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:94,&quot;name&quot;:&quot;diabetolog&quot;,&quot;urlname&quot;:&quot;diabetolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:96,&quot;name&quot;:&quot;diagnostyk&quot;,&quot;urlname&quot;:&quot;diagnostyk&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:98,&quot;name&quot;:&quot;dietetyk&quot;,&quot;urlname&quot;:&quot;dietetyk&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:102,&quot;name&quot;:&quot;specjalista medycyny estetycznej&quot;,&quot;urlname&quot;:&quot;lekarz-medycyny-estetycznej&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:103,&quot;name&quot;:&quot;stomatolog&quot;,&quot;urlname&quot;:&quot;stomatolog&quot;,&quot;isPopular&quot;:true},{&quot;id&quot;:104,&quot;name&quot;:&quot;logopeda&quot;,&quot;urlname&quot;:&quot;logopeda&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:106,&quot;name&quot;:&quot;lekarz rehabilitacji medycznej&quot;,&quot;urlname&quot;:&quot;lekarz-rehabilitacji-medycznej&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:108,&quot;name&quot;:&quot;chirurg naczyniowy&quot;,&quot;urlname&quot;:&quot;chirurg-naczyniowy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:110,&quot;name&quot;:&quot;chirurg szcz\u0119kowo-twarzowy&quot;,&quot;urlname&quot;:&quot;chirurg-szczekowy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:112,&quot;name&quot;:&quot;lekarz chor\u00f3b zaka\u017anych&quot;,&quot;urlname&quot;:&quot;lekarz-chorob-zakaznych&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:118,&quot;name&quot;:&quot;neurolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;neurolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:120,&quot;name&quot;:&quot;chirurg dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;chirurg-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:122,&quot;name&quot;:&quot;kardiolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;kardiolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:124,&quot;name&quot;:&quot;stomatolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;stomatolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:126,&quot;name&quot;:&quot;laryngolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;laryngolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:128,&quot;name&quot;:&quot;flebolog&quot;,&quot;urlname&quot;:&quot;flebolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:130,&quot;name&quot;:&quot;immunolog&quot;,&quot;urlname&quot;:&quot;immunolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:132,&quot;name&quot;:&quot;hipertensjolog&quot;,&quot;urlname&quot;:&quot;hipertensjolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:134,&quot;name&quot;:&quot;protetyk&quot;,&quot;urlname&quot;:&quot;protetyk&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:136,&quot;name&quot;:&quot;neonatolog&quot;,&quot;urlname&quot;:&quot;neonatolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:138,&quot;name&quot;:&quot;kardiochirurg&quot;,&quot;urlname&quot;:&quot;kardiochirurg&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:140,&quot;name&quot;:&quot;lekarz w trakcie specjalizacji&quot;,&quot;urlname&quot;:&quot;lekarz-w-trakcie-specjalizacji&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:144,&quot;name&quot;:&quot;ortopeda dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;ortopeda-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:146,&quot;name&quot;:&quot;okulista dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;okulista-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:148,&quot;name&quot;:&quot;psychiatra dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;psychiatra-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:150,&quot;name&quot;:&quot;transplantolog&quot;,&quot;urlname&quot;:&quot;transplantolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:152,&quot;name&quot;:&quot;psychoterapeuta&quot;,&quot;urlname&quot;:&quot;psychoterapeuta&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:154,&quot;name&quot;:&quot;lekarz medycyny ratunkowej&quot;,&quot;urlname&quot;:&quot;lekarz-medycyny-ratunkowej&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:156,&quot;name&quot;:&quot;urolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;urolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:158,&quot;name&quot;:&quot;optometrysta&quot;,&quot;urlname&quot;:&quot;optometrysta&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:159,&quot;name&quot;:&quot;hepatolog&quot;,&quot;urlname&quot;:&quot;hepatolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:160,&quot;name&quot;:&quot;chirurg stomatologiczny&quot;,&quot;urlname&quot;:&quot;chirurg-stomatologiczny&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:161,&quot;name&quot;:&quot;gastrolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;gastrolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:162,&quot;name&quot;:&quot;psycholog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;psycholog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:163,&quot;name&quot;:&quot;angiochirurg&quot;,&quot;urlname&quot;:&quot;angiochirurg&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:164,&quot;name&quot;:&quot;higienistka stomatologiczna&quot;,&quot;urlname&quot;:&quot;higienistka-stomatologiczna&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:167,&quot;name&quot;:&quot;angiolog&quot;,&quot;urlname&quot;:&quot;angiolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:168,&quot;name&quot;:&quot;endokrynolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;endokrynolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:169,&quot;name&quot;:&quot;ginekolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;ginekologia-dziecieca&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:171,&quot;name&quot;:&quot;diabetolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;diabetolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:172,&quot;name&quot;:&quot;alergolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;alergolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:173,&quot;name&quot;:&quot;pulmonolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;pulmonolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:174,&quot;name&quot;:&quot;nefrolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;nefrolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:175,&quot;name&quot;:&quot;perinatolog&quot;,&quot;urlname&quot;:&quot;perinatolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:176,&quot;name&quot;:&quot;osteopata&quot;,&quot;urlname&quot;:&quot;osteopata&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:177,&quot;name&quot;:&quot;ortoptysta&quot;,&quot;urlname&quot;:&quot;ortoptysta&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:178,&quot;name&quot;:&quot;wenerolog&quot;,&quot;urlname&quot;:&quot;wenerolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:180,&quot;name&quot;:&quot;ultrasonografista&quot;,&quot;urlname&quot;:&quot;ultrasonografista&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:181,&quot;name&quot;:&quot;hematolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;hematolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:182,&quot;name&quot;:&quot;onkolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;onkolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:183,&quot;name&quot;:&quot;radioterapeuta&quot;,&quot;urlname&quot;:&quot;radioterapeuta&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:184,&quot;name&quot;:&quot;fizjoterapeuta dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;fizjoterapeuta-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:185,&quot;name&quot;:&quot;Covid Test&quot;,&quot;urlname&quot;:&quot;covid-test&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:186,&quot;name&quot;:&quot;chirurg klatki piersiowej&quot;,&quot;urlname&quot;:&quot;chirurg-klatki-piersiowej&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:188,&quot;name&quot;:&quot;reumatolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;reumatolog-dzieciecy&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:189,&quot;name&quot;:&quot;psychoonkolog&quot;,&quot;urlname&quot;:&quot;psychoonkolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:190,&quot;name&quot;:&quot;psychotraumatolog&quot;,&quot;urlname&quot;:&quot;psychotraumatolog&quot;,&quot;isPopular&quot;:false},{&quot;id&quot;:191,&quot;name&quot;:&quot;Dermatolog dzieci\u0119cy&quot;,&quot;urlname&quot;:&quot;dermatolog-dzieciecy&quot;,&quot;isPopular&quot;:false}]"/>
+</div>
+
+
+																	<div
+	class="tab-pane"
+	data-id="covid-test-search"
+	data-tab-id="covid-test"
+>
+	<covid-test-search
+		:cities="[{&quot;id&quot;:60,&quot;name&quot;:&quot;Bielsko-Bia\u0142a&quot;},{&quot;id&quot;:144,&quot;name&quot;:&quot;Bydgoszcz&quot;},{&quot;id&quot;:186,&quot;name&quot;:&quot;Chorz\u00f3w&quot;},{&quot;id&quot;:232,&quot;name&quot;:&quot;Cz\u0119stochowa&quot;},{&quot;id&quot;:248,&quot;name&quot;:&quot;D\u0105browa G\u00f3rnicza&quot;},{&quot;id&quot;:320,&quot;name&quot;:&quot;Gda\u0144sk&quot;},{&quot;id&quot;:322,&quot;name&quot;:&quot;Gdynia&quot;},{&quot;id&quot;:328,&quot;name&quot;:&quot;Gliwice&quot;},{&quot;id&quot;:398,&quot;name&quot;:&quot;Grudzi\u0105dz&quot;},{&quot;id&quot;:454,&quot;name&quot;:&quot;Jastrz\u0119bie-Zdr\u00f3j&quot;},{&quot;id&quot;:470,&quot;name&quot;:&quot;Jelenia G\u00f3ra&quot;},{&quot;id&quot;:514,&quot;name&quot;:&quot;Katowice&quot;},{&quot;id&quot;:534,&quot;name&quot;:&quot;Kielce&quot;},{&quot;id&quot;:626,&quot;name&quot;:&quot;Krak\u00f3w&quot;},{&quot;id&quot;:680,&quot;name&quot;:&quot;Legnica&quot;},{&quot;id&quot;:726,&quot;name&quot;:&quot;Lubin&quot;},{&quot;id&quot;:728,&quot;name&quot;:&quot;Lublin&quot;},{&quot;id&quot;:730,&quot;name&quot;:&quot;Lubliniec&quot;},{&quot;id&quot;:786,&quot;name&quot;:&quot;\u0141\u00f3d\u017a&quot;},{&quot;id&quot;:788,&quot;name&quot;:&quot;\u0141uk\u00f3w&quot;},{&quot;id&quot;:816,&quot;name&quot;:&quot;Mielec&quot;},{&quot;id&quot;:886,&quot;name&quot;:&quot;Mys\u0142owice&quot;},{&quot;id&quot;:888,&quot;name&quot;:&quot;Myszk\u00f3w&quot;},{&quot;id&quot;:948,&quot;name&quot;:&quot;Nowy Dw\u00f3r Gda\u0144ski&quot;},{&quot;id&quot;:972,&quot;name&quot;:&quot;Ogrodzieniec&quot;},{&quot;id&quot;:986,&quot;name&quot;:&quot;Olsztyn&quot;},{&quot;id&quot;:1000,&quot;name&quot;:&quot;Opole&quot;},{&quot;id&quot;:1032,&quot;name&quot;:&quot;O\u015bwi\u0119cim&quot;},{&quot;id&quot;:1072,&quot;name&quot;:&quot;Piekary \u015al\u0105skie&quot;},{&quot;id&quot;:1138,&quot;name&quot;:&quot;Pozna\u0144&quot;},{&quot;id&quot;:1170,&quot;name&quot;:&quot;Przeworsk&quot;},{&quot;id&quot;:1196,&quot;name&quot;:&quot;Racib\u00f3rz&quot;},{&quot;id&quot;:1204,&quot;name&quot;:&quot;Radom&quot;},{&quot;id&quot;:1250,&quot;name&quot;:&quot;Ruda \u015al\u0105ska&quot;},{&quot;id&quot;:1256,&quot;name&quot;:&quot;Rybnik&quot;},{&quot;id&quot;:1260,&quot;name&quot;:&quot;Rydu\u0142towy&quot;},{&quot;id&quot;:1276,&quot;name&quot;:&quot;Rzesz\u00f3w&quot;},{&quot;id&quot;:1370,&quot;name&quot;:&quot;Sosnowiec&quot;},{&quot;id&quot;:1380,&quot;name&quot;:&quot;Starogard Gda\u0144ski&quot;},{&quot;id&quot;:1458,&quot;name&quot;:&quot;Szczecin&quot;},{&quot;id&quot;:1532,&quot;name&quot;:&quot;Tczew&quot;},{&quot;id&quot;:1544,&quot;name&quot;:&quot;Toru\u0144&quot;},{&quot;id&quot;:1580,&quot;name&quot;:&quot;Tychy&quot;},{&quot;id&quot;:1604,&quot;name&quot;:&quot;Wa\u0142brzych&quot;},{&quot;id&quot;:1610,&quot;name&quot;:&quot;Warszawa&quot;},{&quot;id&quot;:1666,&quot;name&quot;:&quot;Wodzis\u0142aw \u015al\u0105ski&quot;},{&quot;id&quot;:1674,&quot;name&quot;:&quot;Wolbrom&quot;},{&quot;id&quot;:1688,&quot;name&quot;:&quot;Wroc\u0142aw&quot;},{&quot;id&quot;:1710,&quot;name&quot;:&quot;Zabrze&quot;},{&quot;id&quot;:1754,&quot;name&quot;:&quot;Zgierz&quot;},{&quot;id&quot;:1756,&quot;name&quot;:&quot;Zgorzelec&quot;},{&quot;id&quot;:2166,&quot;name&quot;:&quot;Ga\u0107&quot;},{&quot;id&quot;:2240,&quot;name&quot;:&quot;Kie\u0142cz\u00f3w&quot;},{&quot;id&quot;:2514,&quot;name&quot;:&quot;Stegna&quot;}]"
+	/>
+</div>
+
+															</div>
+						</div>
+
+													<div class="row mt-2">
+								<div class="col-md-10 col-12">
+									<div
+	class="card card-shadow-1 mb-1 text-left"
+	id="ukraine-banner"
+>
+	<div class="card-header py-0-5">
+		<div class="h4 card-title flex-grow-1 mb-0 d-flex align-items-center">
+			🇺🇦
+			<span class="ml-1 text-primary">
+				Лікарі для України
+			</span>
+		</div>
+	</div>
+
+	<div class="card-body p-2">
+		<div class="d-flex align-items-center justify-content-between flex-wrap">
+			<p class="m-0">
+				Безкоштовна медична допомога для біженців з України.
+			</p>
+
+			<a
+				href="https://www.znanylekarz.pl/dla-ukrainy"
+				class="d-flex align-items-center"
+				data-ga-event="click"
+				data-ga-category="Homepage - Ukraine Box"
+				data-ga-action="Doctor Discovery - Explore Ukraine services"
+				data-ga-label="Get the help - click"
+			>
+				Звернутися до лікарів
+				<i class="svg-icon svg-icon-arrow-right svg-icon-size-16 svg-icon-color-primary ml-0-5" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.293 20.707a1 1 0 0 1 0-1.414L18.586 12l-7.293-7.293a1 1 0 0 1 1.414-1.414l8 8a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-1.414 0Z"/><path d="M21 12a1 1 0 0 1-1 1H4a1 1 0 1 1 0-2h16a1 1 0 0 1 1 1Z"/></svg></i>
+			</a>
+		</div>
+	</div>
+</div>
+								</div>
+							</div>
+															</div>
+			</div>
+		</div>
+
+			</section>
+
+			<section id="popular-queries">
+			<div class="container">
+				<div class="row">
+	<h4 class="col-lg-12">
+		Popularne kategorie
+
+		<a href="https://www.znanylekarz.pl/specjalizacje-lekarskie" title="Wszystkie" class="float-right">Wszystkie</a>
+	</h4>
+
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/ginekolog" title="Ginekolog">Ginekolog</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/ginekolog/online" title="Ginekolog online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/ginekolog/krakow" title="Ginekolog Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/ginekolog/warszawa" title="Ginekolog Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/ginekolog/wroclaw" title="Ginekolog Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/ginekolog/poznan" title="Ginekolog Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/ortopeda" title="Ortopeda">Ortopeda</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/ortopeda/online" title="Ortopeda online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/ortopeda/krakow" title="Ortopeda Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/ortopeda/warszawa" title="Ortopeda Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/ortopeda/wroclaw" title="Ortopeda Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/ortopeda/poznan" title="Ortopeda Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/stomatolog" title="Stomatolog">Stomatolog</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/stomatolog/online" title="Stomatolog online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/stomatolog/krakow" title="Stomatolog Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/stomatolog/warszawa" title="Stomatolog Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/stomatolog/wroclaw" title="Stomatolog Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/stomatolog/poznan" title="Stomatolog Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/psycholog" title="Psycholog">Psycholog</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/psycholog/online" title="Psycholog online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/psycholog/krakow" title="Psycholog Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/psycholog/warszawa" title="Psycholog Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/psycholog/wroclaw" title="Psycholog Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/psycholog/poznan" title="Psycholog Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/psychiatra" title="Psychiatra">Psychiatra</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/psychiatra/online" title="Psychiatra online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/psychiatra/krakow" title="Psychiatra Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/psychiatra/warszawa" title="Psychiatra Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/psychiatra/wroclaw" title="Psychiatra Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/psychiatra/poznan" title="Psychiatra Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/chirurg" title="Chirurg">Chirurg</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/chirurg/online" title="Chirurg online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/chirurg/krakow" title="Chirurg Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/chirurg/warszawa" title="Chirurg Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/chirurg/wroclaw" title="Chirurg Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/chirurg/poznan" title="Chirurg Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/dermatolog" title="Dermatolog">Dermatolog</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/dermatolog/online" title="Dermatolog online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/dermatolog/krakow" title="Dermatolog Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/dermatolog/warszawa" title="Dermatolog Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/dermatolog/wroclaw" title="Dermatolog Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/dermatolog/poznan" title="Dermatolog Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/laryngolog" title="Laryngolog">Laryngolog</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/laryngolog/online" title="Laryngolog online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/laryngolog/krakow" title="Laryngolog Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/laryngolog/warszawa" title="Laryngolog Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/laryngolog/wroclaw" title="Laryngolog Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/laryngolog/poznan" title="Laryngolog Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/fizjoterapeuta" title="Fizjoterapeuta">Fizjoterapeuta</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/fizjoterapeuta/online" title="Fizjoterapeuta online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/fizjoterapeuta/krakow" title="Fizjoterapeuta Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/fizjoterapeuta/warszawa" title="Fizjoterapeuta Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/fizjoterapeuta/wroclaw" title="Fizjoterapeuta Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/fizjoterapeuta/poznan" title="Fizjoterapeuta Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/neurolog" title="Neurolog">Neurolog</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/neurolog/online" title="Neurolog online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/neurolog/krakow" title="Neurolog Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/neurolog/warszawa" title="Neurolog Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/neurolog/wroclaw" title="Neurolog Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/neurolog/poznan" title="Neurolog Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/okulista" title="Okulista">Okulista</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/okulista/online" title="Okulista online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/okulista/krakow" title="Okulista Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/okulista/warszawa" title="Okulista Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/okulista/wroclaw" title="Okulista Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/okulista/poznan" title="Okulista Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/pediatra" title="Pediatra">Pediatra</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/pediatra/online" title="Pediatra online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/pediatra/krakow" title="Pediatra Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/pediatra/warszawa" title="Pediatra Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/pediatra/wroclaw" title="Pediatra Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/pediatra/poznan" title="Pediatra Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/urolog" title="Urolog">Urolog</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/urolog/online" title="Urolog online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/urolog/krakow" title="Urolog Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/urolog/warszawa" title="Urolog Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/urolog/wroclaw" title="Urolog Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/urolog/poznan" title="Urolog Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/kardiolog" title="Kardiolog">Kardiolog</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/kardiolog/online" title="Kardiolog online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/kardiolog/krakow" title="Kardiolog Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/kardiolog/warszawa" title="Kardiolog Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/kardiolog/wroclaw" title="Kardiolog Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/kardiolog/poznan" title="Kardiolog Poznań">Poznań</a>												</dd>
+		</dl>
+			<dl class="col-6 col-lg-2 mb-2">
+			<dt>
+				<h5>
+					<a href="https://www.znanylekarz.pl/dietetyk" title="Dietetyk">Dietetyk</a>
+				</h5>
+			</dt>
+			<dd>
+									<a href="/dietetyk/online" title="Dietetyk online">Online</a>,
+																														<a href="https://www.znanylekarz.pl/dietetyk/krakow" title="Dietetyk Kraków">Kraków</a>, 																															<a href="https://www.znanylekarz.pl/dietetyk/warszawa" title="Dietetyk Warszawa">Warszawa</a>, 																															<a href="https://www.znanylekarz.pl/dietetyk/wroclaw" title="Dietetyk Wrocław">Wrocław</a>, 																															<a href="https://www.znanylekarz.pl/dietetyk/poznan" title="Dietetyk Poznań">Poznań</a>												</dd>
+		</dl>
+	
+</div>
+			</div>
+		</section>
+	
+			<section
+			id="popular-queries-short"
+			class="ukraine-banner-enabled bg-white pb-1 pt-4 p-0"
+		>
+				<div class="container">
+		<ul class="list-inline">
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/ginekolog"
+						title="Ginekolog"
+					>
+						Ginekolog
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/ortopeda"
+						title="Ortopeda"
+					>
+						Ortopeda
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/stomatolog"
+						title="Stomatolog"
+					>
+						Stomatolog
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/psycholog"
+						title="Psycholog"
+					>
+						Psycholog
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/psychiatra"
+						title="Psychiatra"
+					>
+						Psychiatra
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/chirurg"
+						title="Chirurg"
+					>
+						Chirurg
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/dermatolog"
+						title="Dermatolog"
+					>
+						Dermatolog
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/laryngolog"
+						title="Laryngolog"
+					>
+						Laryngolog
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/fizjoterapeuta"
+						title="Fizjoterapeuta"
+					>
+						Fizjoterapeuta
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/neurolog"
+						title="Neurolog"
+					>
+						Neurolog
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/okulista"
+						title="Okulista"
+					>
+						Okulista
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/pediatra"
+						title="Pediatra"
+					>
+						Pediatra
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/urolog"
+						title="Urolog"
+					>
+						Urolog
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/kardiolog"
+						title="Kardiolog"
+					>
+						Kardiolog
+					</a>
+				</li>
+							<li class="list-inline-item">
+					<a
+						href="https://www.znanylekarz.pl/dietetyk"
+						title="Dietetyk"
+					>
+						Dietetyk
+					</a>
+				</li>
+			
+			<li class="list-inline-item more">
+				<u><a href="#">Więcej</a></u>
+			</li>
+		</ul>
+	</div>
+
+		</section>
+	
+	
+	<section
+		id="benefits"
+		class="bg-white pt-2 pt-sm-3"
+	>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-3 mb-2 mb-sm-0 media flex-column mt-0">
+		<div class="pr-1">
+			<div class="d-inline-flex">
+				<i class="svg-icon svg-icon-search svg-icon-size-24 svg-icon-color-secondary" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14 9.5a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0Zm-.665 5.249a6.5 6.5 0 1 1 1.414-1.414l4.958 4.958a1 1 0 0 1-1.414 1.414l-4.958-4.958Z"/></svg></i>
+
+				<h3 class="h4 ml-1 mb-0 mr-1">Znajdź specjalistę</h3>
+			</div>
+		</div>
+
+		<div class="media-body">
+			<p class="text-muted mt-1 mb-3 m-0 mb-sm-3">Wybierz spośród ponad 146&nbsp;000 lekarzy i specjalistów. Przeglądaj opinie innych pacjentów.</p>
+		</div>
+	</div>
+
+					<div class="col-md-3 mb-2 mb-sm-0 media flex-column mt-0">
+		<div class="pr-1">
+			<div class="d-inline-flex">
+				<i class="svg-icon svg-icon-calendar-with-check svg-icon-size-24 svg-icon-color-secondary" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 11.53a.754.754 0 0 0-1.06 0l-4.35 4.35L9 14.29a.754.754 0 0 0-1.06 0c-.29.29-.29.77 0 1.06l1.94 1.94c.39.39 1.02.39 1.41 0l4.7-4.7c.3-.29.3-.77.01-1.06ZM19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm-1 16H6c-.55 0-1-.45-1-1V9h14v10c0 .55-.45 1-1 1Z"/></svg></i>
+
+				<h3 class="h4 ml-1 mb-0 mr-1">Łatwo umów wizytę</h3>
+			</div>
+		</div>
+
+		<div class="media-body">
+			<p class="text-muted mt-1 mb-3 m-0 mb-sm-3">Wybierz odpowiadający Ci termin, podaj swoje dane, potwierdź... i już. Wizyta umówiona!</p>
+		</div>
+	</div>
+
+					<div class="col-md-3 mb-2 mb-sm-0 media flex-column mt-0">
+		<div class="pr-1">
+			<div class="d-inline-flex">
+				<i class="svg-icon svg-icon-clock-filled svg-icon-size-24 svg-icon-color-secondary" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10ZM11 8.75a.75.75 0 0 1 1.5 0v3.75h3.75a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75v-4.5Z"/></svg></i>
+
+				<h3 class="h4 ml-1 mb-0 mr-1">Przyjdź na wizytę</h3>
+			</div>
+		</div>
+
+		<div class="media-body">
+			<p class="text-muted mt-1 mb-3 m-0 mb-sm-3">O wybranym terminie przypomnimy ci automatycznie w wiadomości sms i mailu.</p>
+		</div>
+	</div>
+
+					<div class="col-md-3 mb-2 mb-sm-0 media flex-column mt-0">
+		<div class="pr-1">
+			<div class="d-inline-flex">
+				<i class="svg-icon svg-icon-thumb-up svg-icon-size-24 svg-icon-color-secondary" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.12 2.06 7.58 7.6c-.37.37-.58.88-.58 1.41V19c0 1.1.9 2 2 2h9c.8 0 1.52-.48 1.84-1.21l3.26-7.61C23.94 10.2 22.49 8 20.34 8h-5.65l.95-4.58c.1-.5-.05-1.01-.41-1.37-.59-.58-1.53-.58-2.11.01ZM3 21c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2s-2 .9-2 2v8c0 1.1.9 2 2 2Z"/></svg></i>
+
+				<h3 class="h4 ml-1 mb-0 mr-1">Usługa jest bezpłatna</h3>
+			</div>
+		</div>
+
+		<div class="media-body">
+			<p class="text-muted mt-1 mb-3 m-0 mb-sm-3">Korzystanie z serwisu ZnanyLekarz.pl jest dla pacjentów zupełnie bezpłatne.</p>
+		</div>
+	</div>
+
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="says-opinions">
+		<div class="container">
+			<div class="row">
+
+									<div itemscope itemtype="http://schema.org/Question" class="col-12 col-lg-6">
+						<div class="row">
+	<div class="col-12">
+		<h4 class="h3">Porady</h4>
+	</div>
+
+															
+		<figure class="col-12 mb-4" itemscope itemtype="http://schema.org/Question">
+						<div class="row">
+				<div class="col-12">
+					<p itemprop="text">
+						<a href="https://www.znanylekarz.pl/pytania-odpowiedzi/mam-46-lat-jestem-dziewica-i-nigdy-nie-bylam-u-ginekologa-mam-straszny-lek-wrecz-fobie-przed-wizyta" class="text-body">
+							Mam 46 lat, jestem dziewicą i nigdy nie byłam u ginekologa(mam straszny lęk wręcz fobie przed wizytą, a teraz dochodzi do tego wstyd, że nigdy nie byłam plus fakt dziewictwa). Czuję się jak dziwoląg&hellip;
+						</a>
+					</p>
+				</div>
+			</div>
+
+			<p class="small text-placeholder">ODPOWIEDŹ LEKARZA:</p>
+						<div class="media">
+				<div class="pr-1">
+					<span class="avatar avatar-sm"
+					      data-id="js-link"
+					      itemprop="author"
+					      itemscope
+					      itemtype="http://schema.org/Person"
+					      data-href="https://www.znanylekarz.pl/lukasz-blukacz/ginekolog-lekarz-medycyny-estetycznej/katowice"
+					>
+						<img data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/6b2bbb/6b2bbb20c46fbd584fa49ae59ac89d98_140_square.jpg" alt=""/>
+					</span>
+				</div>
+				<div class="media-body">
+					<figcaption>
+						<h3 class="h5">
+							<a href="https://www.znanylekarz.pl/lukasz-blukacz/ginekolog-lekarz-medycyny-estetycznej/katowice"
+							   data-ga-event="click"
+							   data-ga-category="QA"
+							   data-ga-action="Question - Name click"
+							>
+								lek. Łukasz Blukacz
+							</a>
+						</h3>
+						<p itemprop="text">
+							Ma Pani rację - potrzebuje Pani konsultacji ginekologicznej. Proszę na początku takiej konsultacji zgłosić, że jest to Pani pierwsza konsultacja, że nie współżyje Pani. <br />
+Badanie ultrasonograficzne&hellip;
+
+															<a href="https://www.znanylekarz.pl/pytania-odpowiedzi/mam-46-lat-jestem-dziewica-i-nigdy-nie-bylam-u-ginekologa-mam-straszny-lek-wrecz-fobie-przed-wizyta?utm_source=Read%20more&amp;utm_medium=website&amp;utm_campaign=qa%20usage%20check&amp;utm_content=Read%20more">
+									Więcej
+								</a>
+													</p>
+					</figcaption>
+				</div>
+			</div>
+		</figure>
+
+															
+		<figure class="col-12 mb-4" itemscope itemtype="http://schema.org/Question">
+						<div class="row">
+				<div class="col-12">
+					<p itemprop="text">
+						<a href="https://www.znanylekarz.pl/pytania-odpowiedzi/witam-jestem-w-4-tyg-ciazy-od-kilku-dni-ok4-dni-mam-brazowe-plamienia-oprocz-tego-nic-sie-nie-d" class="text-body">
+							Witam jestem w 4 tyg ciąży , od kilku dni(ok4 dni) mam brązowe plamienia , oprócz tego nic się nie dzieje ale się bardzo martwię , gdyż jestem już po poronieniu rok temu , delikatne boleści raz&hellip;
+						</a>
+					</p>
+				</div>
+			</div>
+
+			<p class="small text-placeholder">ODPOWIEDŹ LEKARZA:</p>
+						<div class="media">
+				<div class="pr-1">
+					<span class="avatar avatar-sm"
+					      data-id="js-link"
+					      itemprop="author"
+					      itemscope
+					      itemtype="http://schema.org/Person"
+					      data-href="https://www.znanylekarz.pl/lukasz-blukacz/ginekolog-lekarz-medycyny-estetycznej/katowice"
+					>
+						<img data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/6b2bbb/6b2bbb20c46fbd584fa49ae59ac89d98_140_square.jpg" alt=""/>
+					</span>
+				</div>
+				<div class="media-body">
+					<figcaption>
+						<h3 class="h5">
+							<a href="https://www.znanylekarz.pl/lukasz-blukacz/ginekolog-lekarz-medycyny-estetycznej/katowice"
+							   data-ga-event="click"
+							   data-ga-category="QA"
+							   data-ga-action="Question - Name click"
+							>
+								lek. Łukasz Blukacz
+							</a>
+						</h3>
+						<p itemprop="text">
+							Bez uprzedniej konsultacji ginekologicznej z badaniem ultrasonograficznym odpowiedź na Pani pytania jest niemożliwa. Proszę zgłosić się na wizytę ginekologiczną celem ustalenia dalszego postępowania.
+
+															<a href="https://www.znanylekarz.pl/pytania-odpowiedzi/witam-jestem-w-4-tyg-ciazy-od-kilku-dni-ok4-dni-mam-brazowe-plamienia-oprocz-tego-nic-sie-nie-d?utm_source=Read%20more&amp;utm_medium=website&amp;utm_campaign=qa%20usage%20check&amp;utm_content=Read%20more">
+									Więcej
+								</a>
+													</p>
+					</figcaption>
+				</div>
+			</div>
+		</figure>
+
+	</div>
+
+					</div>
+				
+				<div class="col-12 col-lg-6">
+											
+	<div class="row">
+		<div class="col-12">
+			<h2 class="h3">Najnowsze opinie</h2>
+		</div>
+
+					<figure class="col-12 mb-4">
+				<div class="media">
+					<div class="pr-1">
+						<span class="avatar avatar-sm"
+						      data-id="js-link"
+						      data-href="https://www.znanylekarz.pl/ewa-wielechowska/psychoterapeuta/warszawa"
+						>
+						    <img data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/70e2c3/70e2c36cbdf17c5dcc1af3673101723c_140_square.jpg"  alt="Ewa Wielechowska">
+					    </span>
+					</div>
+					<div class="media-body">
+						<h3 class="h4 clearfix">
+							<a href="https://www.znanylekarz.pl/ewa-wielechowska/psychoterapeuta/warszawa" title="Ewa Wielechowska">
+								Ewa Wielechowska
+							</a>
+							<span class="rating rating-md small float-right"
+							      data-score="5"
+							></span>
+						</h3>
+						<figcaption>
+							<div
+								data-id="js-link"
+								data-href="https://www.znanylekarz.pl/ewa-wielechowska/psychoterapeuta/warszawa"
+							>
+								<p class="mb-0">Pani Ewa z bardzo dużym zaangażowaniem podchodzi do rozmówcy. Widać,  że jej zależy. Daje tym samym poczucie bezpieczeństwa.</p>
+																	<em class="text-muted">M. W</em>
+															</div>
+						</figcaption>
+					</div>
+				</div>
+			</figure>
+					<figure class="col-12 mb-4">
+				<div class="media">
+					<div class="pr-1">
+						<span class="avatar avatar-sm"
+						      data-id="js-link"
+						      data-href="https://www.znanylekarz.pl/marcin-skrobich/ortopeda-lekarz-sportowy/suchy-las"
+						>
+						    <img data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/e027b6/e027b64fc0f5f0cdc025937460e6d4f7_140_square.jpg"  alt="Marcin Skrobich">
+					    </span>
+					</div>
+					<div class="media-body">
+						<h3 class="h4 clearfix">
+							<a href="https://www.znanylekarz.pl/marcin-skrobich/ortopeda-lekarz-sportowy/suchy-las" title="Marcin Skrobich">
+								Marcin Skrobich
+							</a>
+							<span class="rating rating-md small float-right"
+							      data-score="5"
+							></span>
+						</h3>
+						<figcaption>
+							<div
+								data-id="js-link"
+								data-href="https://www.znanylekarz.pl/marcin-skrobich/ortopeda-lekarz-sportowy/suchy-las"
+							>
+								<p class="mb-0">Sprawnie i bezboleśnie ściągnięty płyn z kolana i podany kwas hialuronowy. Wizyta w sympatycznej atmosferze.</p>
+																	<em class="text-muted">Ryszard</em>
+															</div>
+						</figcaption>
+					</div>
+				</div>
+			</figure>
+					<figure class="col-12 mb-4">
+				<div class="media">
+					<div class="pr-1">
+						<span class="avatar avatar-sm"
+						      data-id="js-link"
+						      data-href="https://www.znanylekarz.pl/wojciech-gwozdz-2/ortopeda/gliwice"
+						>
+						    <img data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/e65a26/e65a262272dcaf38cb2c2dd0b0584a26_140_square.jpg"  alt="Wojciech Gwóźdź">
+					    </span>
+					</div>
+					<div class="media-body">
+						<h3 class="h4 clearfix">
+							<a href="https://www.znanylekarz.pl/wojciech-gwozdz-2/ortopeda/gliwice" title="Wojciech Gwóźdź">
+								Wojciech Gwóźdź
+							</a>
+							<span class="rating rating-md small float-right"
+							      data-score="5"
+							></span>
+						</h3>
+						<figcaption>
+							<div
+								data-id="js-link"
+								data-href="https://www.znanylekarz.pl/wojciech-gwozdz-2/ortopeda/gliwice"
+							>
+								<p class="mb-0">Polecam Pana doktora,konkretny i przyjazny dla pacjenta.Potrafi wytłumaczyć na czym polega schorzenie i doradzić co najlepiej zrobić.</p>
+																	<em class="text-muted">Edyta </em>
+															</div>
+						</figcaption>
+					</div>
+				</div>
+			</figure>
+			</div>
+
+									</div>
+			</div>
+		</div>
+	</section>
+
+
+			<section class="bg-white pt-2 pb-5">
+	<div class="container">
+		<div class="row">
+			<h3>Od niedawna na ZnanyLekarz</h3>
+			<div class="dp-carousel">
+				<button
+					class="dp-carousel-nav dp-carousel-nav-prev circle circle-gray-600"
+					disabled
+				>
+					<i class="svg-icon svg-icon-caret-left svg-icon-color-white" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.293 12.707a1 1 0 0 1 0-1.414l8-8a1 1 0 1 1 1.414 1.414L9.414 12l7.293 7.293a1 1 0 0 1-1.414 1.414l-8-8Z"/></svg></i>
+				</button>
+				<ul
+					id="new-doctors-carousel"
+					class="d-flex list-unstyled m-0"
+				>
+																		
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/monika-czapkiewicz/psycholog-psychoterapeuta/gdynia">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/b3f73b/b3f73bde0c4dbd7c63318c72221399cd_140_square.jpg"
+												alt="mgr Monika Czapkiewicz"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/monika-czapkiewicz/psycholog-psychoterapeuta/gdynia"
+											class="text-body"
+										>
+											<span itemprop="name">
+												mgr Monika Czapkiewicz
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Psycholog, Gdynia</p>
+									<a href="https://www.znanylekarz.pl/monika-czapkiewicz/psycholog-psychoterapeuta/gdynia">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/andrii-upatov/neurolog/ruda-slaska">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/f7b2f6/f7b2f60b737726c176488c0fb2779362_140_square.jpg"
+												alt="lek. Andrii Upatov"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/andrii-upatov/neurolog/ruda-slaska"
+											class="text-body"
+										>
+											<span itemprop="name">
+												lek. Andrii Upatov
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Neurolog, Ruda Śląska</p>
+									<a href="https://www.znanylekarz.pl/andrii-upatov/neurolog/ruda-slaska">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/magda-pilszak/psycholog-psychotraumatolog/warszawa">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/ba566b/ba566bb18d297c00c01cddcf0de1201f_140_square.jpg"
+												alt="mgr Magda Pilszak"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/magda-pilszak/psycholog-psychotraumatolog/warszawa"
+											class="text-body"
+										>
+											<span itemprop="name">
+												mgr Magda Pilszak
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Psycholog, Warszawa</p>
+									<a href="https://www.znanylekarz.pl/magda-pilszak/psycholog-psychotraumatolog/warszawa">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/justyna-szczerba/dietetyk/warszawa">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/566b69/566b699a60133cb21e7cdfb9bf6bc56d_140_square.jpg"
+												alt="mgr Justyna Szczerba"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/justyna-szczerba/dietetyk/warszawa"
+											class="text-body"
+										>
+											<span itemprop="name">
+												mgr Justyna Szczerba
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Dietetyk, Warszawa</p>
+									<a href="https://www.znanylekarz.pl/justyna-szczerba/dietetyk/warszawa">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/magdalena-kudla/psycholog/sosnowiec">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/78a23b/78a23b429ec229216a5f729f8bed3d8c_140_square.jpg"
+												alt="mgr Magdalena Kudła"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/magdalena-kudla/psycholog/sosnowiec"
+											class="text-body"
+										>
+											<span itemprop="name">
+												mgr Magdalena Kudła
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Psycholog, Sosnowiec</p>
+									<a href="https://www.znanylekarz.pl/magdalena-kudla/psycholog/sosnowiec">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/kamila-cywinska/pediatra-lekarz-w-trakcie-specjalizacji/poznan">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/b4ac65/b4ac6580d0e618ab1b6a6aa632b83fd7_140_square.jpg"
+												alt="dr n. med. Kamila Cywińska"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/kamila-cywinska/pediatra-lekarz-w-trakcie-specjalizacji/poznan"
+											class="text-body"
+										>
+											<span itemprop="name">
+												dr n. med. Kamila Cywińska
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Pediatra, Poznań</p>
+									<a href="https://www.znanylekarz.pl/kamila-cywinska/pediatra-lekarz-w-trakcie-specjalizacji/poznan">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/anna-rutkowska-6/dietetyk/wroclaw">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/852dcb/852dcb7f9f4554d17ca3653ef0ce2887_140_square.jpg"
+												alt=" Anna Rutkowska"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/anna-rutkowska-6/dietetyk/wroclaw"
+											class="text-body"
+										>
+											<span itemprop="name">
+												 Anna Rutkowska
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Dietetyk, Wrocław</p>
+									<a href="https://www.znanylekarz.pl/anna-rutkowska-6/dietetyk/wroclaw">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/malwina-spadlo/ginekolog-lekarz-w-trakcie-specjalizacji/warszawa">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												alt=" Malwina Spadło"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/malwina-spadlo/ginekolog-lekarz-w-trakcie-specjalizacji/warszawa"
+											class="text-body"
+										>
+											<span itemprop="name">
+												 Malwina Spadło
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Ginekolog, Warszawa</p>
+									<a href="https://www.znanylekarz.pl/malwina-spadlo/ginekolog-lekarz-w-trakcie-specjalizacji/warszawa">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/tomasz-piasecki-3/psycholog-psychoterapeuta/warszawa">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/887f8b/887f8b7a3b6634761cac557cddd3e453_140_square.jpg"
+												alt="mgr Tomasz Piasecki"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/tomasz-piasecki-3/psycholog-psychoterapeuta/warszawa"
+											class="text-body"
+										>
+											<span itemprop="name">
+												mgr Tomasz Piasecki
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Psycholog, Grodzisk Mazowiecki</p>
+									<a href="https://www.znanylekarz.pl/tomasz-piasecki-3/psycholog-psychoterapeuta/warszawa">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/joanna-kunka/psycholog/warszawa">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/da247a/da247ac978be76df6a5f6881549da658_140_square.jpg"
+												alt="mgr Joanna Kunka"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/joanna-kunka/psycholog/warszawa"
+											class="text-body"
+										>
+											<span itemprop="name">
+												mgr Joanna Kunka
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Psycholog, Warszawa</p>
+									<a href="https://www.znanylekarz.pl/joanna-kunka/psycholog/warszawa">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/karolina-zebrakowska/psycholog/krakow">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/ea03ef/ea03ef190486d16ef57ff99d81963ece_140_square.jpg"
+												alt=" Karolina Żebrakowska"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/karolina-zebrakowska/psycholog/krakow"
+											class="text-body"
+										>
+											<span itemprop="name">
+												 Karolina Żebrakowska
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Psycholog, Kraków</p>
+									<a href="https://www.znanylekarz.pl/karolina-zebrakowska/psycholog/krakow">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/anna-baluta/stomatolog/nowy-sacz">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/a9a363/a9a36303b9d79a6a35b7840cc2463068_140_square.jpg"
+												alt="lek. dent. Anna Baluta"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/anna-baluta/stomatolog/nowy-sacz"
+											class="text-body"
+										>
+											<span itemprop="name">
+												lek. dent. Anna Baluta
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Stomatolog, Nowy Sącz</p>
+									<a href="https://www.znanylekarz.pl/anna-baluta/stomatolog/nowy-sacz">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/zaya-lkhagvadorj/psycholog-psychoterapeuta/gdynia">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/f64cbb/f64cbb9be7bc77f8ab3b117bd63da1f0_140_square.jpg"
+												alt="mgr Zaya Lkhagvadorj"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/zaya-lkhagvadorj/psycholog-psychoterapeuta/gdynia"
+											class="text-body"
+										>
+											<span itemprop="name">
+												mgr Zaya Lkhagvadorj
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Psycholog, Gdynia</p>
+									<a href="https://www.znanylekarz.pl/zaya-lkhagvadorj/psycholog-psychoterapeuta/gdynia">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/justyna-madejczyk-2/chirurg-dzieciecy/gliwice">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												alt="lek. Justyna Madejczyk"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/justyna-madejczyk-2/chirurg-dzieciecy/gliwice"
+											class="text-body"
+										>
+											<span itemprop="name">
+												lek. Justyna Madejczyk
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Chirurg dziecięcy, Katowice</p>
+									<a href="https://www.znanylekarz.pl/justyna-madejczyk-2/chirurg-dzieciecy/gliwice">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/agnieszka-lejk-2/dietetyk/gdansk">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/45c3ce/45c3ce0eae8e3296b706f8fed5534b9a_140_square.jpg"
+												alt="mgr Agnieszka Lejk"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/agnieszka-lejk-2/dietetyk/gdansk"
+											class="text-body"
+										>
+											<span itemprop="name">
+												mgr Agnieszka Lejk
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Dietetyk, Gdańsk</p>
+									<a href="https://www.znanylekarz.pl/agnieszka-lejk-2/dietetyk/gdansk">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/agnieszka-misztal/pediatra/krakow">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/f8283d/f8283d18278dc422cc4e411cc78c5f58_140_square.jpg"
+												alt=" Agnieszka Misztal"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/agnieszka-misztal/pediatra/krakow"
+											class="text-body"
+										>
+											<span itemprop="name">
+												 Agnieszka Misztal
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Pediatra, Kraków</p>
+									<a href="https://www.znanylekarz.pl/agnieszka-misztal/pediatra/krakow">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/agnieszka-kluska-jozwiak/nefrolog-dzieciecy-pediatra/poznan">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												alt="lek. Agnieszka Kluska-Jóźwiak"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/agnieszka-kluska-jozwiak/nefrolog-dzieciecy-pediatra/poznan"
+											class="text-body"
+										>
+											<span itemprop="name">
+												lek. Agnieszka Kluska-Jóźwiak
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Nefrolog dziecięcy, Poznań</p>
+									<a href="https://www.znanylekarz.pl/agnieszka-kluska-jozwiak/nefrolog-dzieciecy-pediatra/poznan">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/karina-zhavaranak/psychiatra-lekarz-w-trakcie-specjalizacji/wroclaw">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/7a9c73/7a9c734e4ebd426ae2ad182cdb567608_140_square.jpg"
+												alt=" Karina Zhavaranak"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/karina-zhavaranak/psychiatra-lekarz-w-trakcie-specjalizacji/wroclaw"
+											class="text-body"
+										>
+											<span itemprop="name">
+												 Karina Zhavaranak
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Psychiatra, Wrocław</p>
+									<a href="https://www.znanylekarz.pl/karina-zhavaranak/psychiatra-lekarz-w-trakcie-specjalizacji/wroclaw">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/tatsiana-sukhnatava/pediatra-lekarz-w-trakcie-specjalizacji/warszawa">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												alt="lek. Tatsiana Sukhnatava"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/tatsiana-sukhnatava/pediatra-lekarz-w-trakcie-specjalizacji/warszawa"
+											class="text-body"
+										>
+											<span itemprop="name">
+												lek. Tatsiana Sukhnatava
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Pediatra, Warszawa</p>
+									<a href="https://www.znanylekarz.pl/tatsiana-sukhnatava/pediatra-lekarz-w-trakcie-specjalizacji/warszawa">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+														
+					<li class="pr-1">
+						<div class="dp-doctor-card dp-doctor-card-md p-1-5">
+							<div class="media">
+								<div class="pr-1">
+									<a href="https://www.znanylekarz.pl/ewelina-kubera/psycholog/gdynia">
+										<span class="mb-1 avatar avatar-circle no-background">
+											<img
+												src="//platform.docplanner.com/img/general/doctor/doctor-default-80-80.png?1981952613"
+												data-src="//s3-eu-west-1.amazonaws.com/znanylekarz.pl/doctor/340514/3405142855ccce58484d3431fd6e76f8_140_square.jpg"
+												alt="mgr Ewelina Kubera"
+												itemprop="image"
+											/>
+										</span>
+									</a>
+								</div>
+								<div class="media-body overflow-hidden">
+									<h3 class="dp-doctor-card-header h4 mb-0 text-truncate">
+										<a
+											href="https://www.znanylekarz.pl/ewelina-kubera/psycholog/gdynia"
+											class="text-body"
+										>
+											<span itemprop="name">
+												mgr Ewelina Kubera
+											</span>
+										</a>
+									</h3>
+									<p class="mb-0-5">Psycholog, Gdynia</p>
+									<a href="https://www.znanylekarz.pl/ewelina-kubera/psycholog/gdynia">Pokaż profil</a>
+								</div>
+							</div>
+						</div>
+					</li>
+								</ul>
+				<button
+					class="dp-carousel-nav dp-carousel-nav-next circle circle-gray-600"
+					disabled
+				>
+					<i class="svg-icon svg-icon-caret-right svg-icon-color-white" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.293 20.707a1 1 0 0 1 0-1.414L14.586 12 7.293 4.707a1 1 0 0 1 1.414-1.414l8 8a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-1.414 0Z"/></svg></i>
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+	
+	<div data-id="homepage-dialogs-vue">
+		<dp-dialogs-container/>
+	</div>
+
+	<script>
+		ZLApp.APICredentials = {
+	'ACCESS_TOKEN': 'ZTczMTZiZjA4MmJkYjBlNDM4MzUwZjMzMGIyY2E0MmQ3ZjY5MTQ3NmQxMTU3NGRmMTBmNmU1ODg1MDExZmM3OA',
+	'ACCESS_TOKEN_EXPIRATION_TIME': '1663294924',
+	'REFRESH_TOKEN': '',
+	'REFRESH_TOKEN_EXPIRATION_TIME': '',
+	'TOKEN_URL': 'https\u003A\/\/l.znanylekarz.pl\/oauth\/v2\/token'
+};
+
+		ZLApp.AppConfig = {
+			SEARCH_PATH: "https:\/\/www.znanylekarz.pl\/szukaj",
+			TRANSLATIONS: {"home_online_consultation_choose_speciality":"Wybierz specjalizacj\u0119","home_online_consultation_search":"Szukaj","home_online_consultation_tip":"Czym jest konsultacja online? ","home_online_consultation_tip_modal_body":"Konsultacja online pozwala Ci po\u0142\u0105czy\u0107 si\u0119\u00a0ze specjalist\u0105\u00a0na odleg\u0142o\u015b\u0107. To jak tradycyjna konsultacja, ale bez potrzeby wychodzenia z domu.","home_online_consultation_tip_modal_header":"Czym jest konsultacja online? ","there_is_no_content_to_show":"Brak wynik\u00f3w do wy\u015bwietlenia","mobile_app_for_patients_promote_app_banner_1_title":"ZnanyLekarz","mobile_app_for_patients_promote_app_banner_1_subtitle":"Jeszcze lepszy w aplikacji","mobile_app_for_patients_promote_app_banner_1_cta":"Pobierz","hp-covid-test-location":"Lokalizacja test\u00f3w COVID-19","hp-covid-test-cta":"Otrzymaj potrzebn\u0105 pomoc","covid-test-header":"Zadbaj o zdrowie w czasie pandemii","covid-test-h2-online":"Skorzystaj z konsultacji online","covid-test-description-online":"Porad\u017a si\u0119\u00a0specjalisty w najbezpieczniejszy spos\u00f3b, bez wychodzenia z domu. Otrzymasz profesjonaln\u0105 opiek\u0119 oraz, w razie potrzeby, zwolnienie lekarskie lub e-recept\u0119.","covid-test-h2-covidtest":"Testy na COVID-19","covid-test-description-covidtest":"Odczuwasz objawy koronawirusa lub mia\u0142e\u015b\/a\u015b kontakt z osob\u0105 zara\u017con\u0105? Zr\u00f3b test i pozb\u0105d\u017a si\u0119 w\u0105tpliwo\u015bci.","covid-test-h2-mentalhealth":"Zadbaj o swoje zdrowie psychiczne","covid-test-description-mentalhealth":"Czujesz, \u017ce obecna sytacja Ci\u0119 przyt\u0142acza i chcesz z kim\u015b o tym porozmawia\u0107? Poszukaj polecanych specjalist\u00f3w, kt\u00f3rzy s\u0105 gotowi, by Ci pom\u00f3c.","covid-test-search":"Szukaj","login_before_save_doctor_header":"Zapisywanie specjalisty","login_before_save_doctor_text":"Aby zapisa\u0107 specjalist\u0119, utw\u00f3rz konto na ZnanyLekarz.","login_before_save_doctor_or":"lub","login_before_save_doctor_email":"U\u017cyj adresu e-mail","login_before_save_doctor_already":"Masz ju\u017c konto?","login_before_save_doctor_login":"Zaloguj si\u0119","login_with_apple":"Kontynuuj z Apple","login_with_facebook":"Kontynuuj z Facebook","login_with_google":"Kontynuuj z Google","banner_promote_app_doctor_homepage_test_title":"ZnanyLekarz jest lepszy w aplikacji","banner_promote_app_doctor_homepage_test_tag":"Polecane","banner_promote_app_doctor_homepage_test_app_title":"Aplikacja ZnanyLekarz","banner_promote_app_doctor_homepage_test_cta":"Otw\u00f3rz","banner_promote_app_doctor_homepage_test_browser_title":"Przegl\u0105darka","banner_promote_app_doctor_homepage_test_cta2":"Kontynuuj","banner_promote_app_doctor_homepage_test_cta3":"Otw\u00f3rz aplikacj\u0119","banner_promote_app_doctor_homepage_test_cta4":"Kontynuuj w przegl\u0105darce","banner_promote_app_listing_nocalendar_test_title":"Potrzebujesz specjalisty?","banner_promote_app_listing_nocalendar_test_text":"Dbanie o zdrowie jest prostsze z aplikacj\u0105. Odkryj j\u0105 teraz!","banner_promote_app_listing_nocalendar_test_cta":"Wypr\u00f3buj aplikacj\u0119","banner_promote_app_listing_nocalendar_test_cta2":"Kontynuuj w przegl\u0105darce","banner_promote_app_listing_nocalendar_test_title2":"Zadbaj o swoje zdrowie dzi\u0119ki aplikacji","banner_promote_app_listing_nocalendar_test_text2":"Znajd\u017a specjalist\u00f3w w pobli\u017cu","banner_promote_app_listing_nocalendar_test_text3":"Um\u00f3w wizyt\u0119, kiedy tylko jej potrzebujesz","banner_promote_app_listing_nocalendar_test_tcta3":"Zainstaluj aplikacj\u0119","banner_promote_app_profile_nocalendar_test_title":"Potrzebujesz specjalisty?","banner_promote_app_profile_nocalendar_test_text":"Dbanie o zdrowie jest prostsze z aplikacj\u0105. Odkryj j\u0105 teraz!","banner_promote_app_profile_nocalendar_test_cta":"Wypr\u00f3buj aplikacj\u0119","banner_promote_app_profile_nocalendar_test_cta2":"Kontynuuj w przegl\u0105darce","banner_promote_app_profile_nocalendar_test_title2":"\u0141atwe umawianie wizyt w aplikacji","banner_promote_app_profile_nocalendar_test_cta3":"Otw\u00f3rz aplikacj\u0119","banner_promote_app_content_page_test_title":"Martwi\u0105 ci\u0119 jakie\u015b dolegliwo\u015bci zdrowotne?","banner_promote_app_content_page_test_text":"Pobierz aplikacj\u0119 i otrzymaj odpowiedzi bezpo\u015brednio od specjalisty","banner_promote_app_content_page_test_cta":"Wypr\u00f3buj aplikacj\u0119","banner_promote_app_content_page_test_cta2":"Kontynuuj w przegl\u0105darce","banner_promote_app_content_page_test_title2":"Zadbaj o swoje zdrowie za pomoc\u0105 aplikacji","banner_promote_app_content_page_test_cta3":"Otw\u00f3rz","banner_promote_app_content_booking_confirmation_V1":"Dzie\u0144 dobry, oto szczeg\u00f3\u0142y wizyty. S\u0105 dost\u0119pne r\u00f3wnie\u017c w aplikacji, razem z przypomnieniami o wizycie.","banner_promote_app_content_booking_confirmation_cta_V1":"Kontynuuj w aplikacji","banner_promote_app_content_booking_confirmation_V2":"Dzie\u0144 dobry, dzi\u0119kuj\u0119\u00a0za um\u00f3wienie wizyty. ","download-app-generic":"Pobierz aplikacj\u0119","banner_promote_app_content_booking_confirmation_V3":"\u015aled\u017a szczeg\u00f3\u0142y swoich wizyt","banner_promote_app_content_opinion_thank_you_page_title_V1":"Wiadomo\u015b\u0107 od specjalisty","banner_promote_app_content_opinion_thank_you_page_V1":"Dzie\u0144 dobry, dzi\u0119kuj\u0119 za podzielenie si\u0119 opini\u0105. Je\u015bli chcesz wys\u0142a\u0107 mi wiadomo\u015b\u0107, zapraszam do pobrania aplikacji.","banner_promote_app_email_footer":"Zarz\u0105dzaj swoimi wizytami w aplikacji. Otrzymuj przypomnienia i wysy\u0142aj wiadomo\u015bci do specjalist\u00f3w."},
+		};
+	</script>
+
+			
+
+
+
+<script type="application/ld+json">
+	{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/www.znanylekarz.pl\/","logo":"https:\/\/www.znanylekarz.pl\/img\/pl\/logo\/logo-default-pl.svg?v=4","legalName":"ZnanyLekarz Sp. z o.o.","brand":{"@type":"Brand","name":"ZnanyLekarz"}}
+</script>
+
+<footer id="footer" class="footer text-center text-sm-left bg-white pt-2 pb-2 text-placeholder" data-id="footer">
+
+	<div class="container">
+		<div class="row">
+			<aside class="col-lg-3 col-md-6">
+				<div class="h4 text-muted">
+					Serwis
+				</div>
+
+				<ul class="list-unstyled text-list">
+						<li><a href="https://www.znanylekarz.pl/prywatnosc"  class="text-placeholder">Cookies</a></li>
+
+
+					
+						<li><a href="https://www.docplanner.com/about-us"  class="text-placeholder">O nas</a></li>
+
+						<li><a href="https://www.znanylekarz.pl/kontakt"  class="text-placeholder">Kontakt</a></li>
+
+						<li><a href="https://www.docplanner.com/career"  class="text-placeholder">Praca <span class="badge bg-info-light">Rekrutujemy!</span></a></li>
+
+						<li><a href="https://www.znanylekarz.pl/regulamin"  class="text-placeholder">Regulamin</a></li>
+
+
+												<li><a href="https://www.znanylekarz.pl/partnerzy"  class="text-placeholder">Partnerzy</a></li>
+
+					
+												<li><a href="http://biuroprasowe.znanylekarz.pl/"  class="text-placeholder">Centrum prasowe</a></li>
+
+					
+					
+												<li><a href="https://www.znanylekarz.pl/dane-osobowe"  class="text-placeholder">Dane osobowe</a></li>
+
+					
+									</ul>
+			</aside>
+			<aside class="col-lg-3 col-md-6">
+				<div class="h4 text-muted">
+					Dla pacjentów
+				</div>
+
+				<ul class="list-unstyled text-list">
+						<li><a href="https://www.znanylekarz.pl/specjalizacje-lekarskie"  class="text-placeholder">Lekarze</a></li>
+
+
+						<li><a href="https://www.znanylekarz.pl/placowki"  class="text-placeholder">Placówki medyczne</a></li>
+
+
+												<li><a href="https://www.znanylekarz.pl/pytania-odpowiedzi"  class="text-placeholder">Pytania i odpowiedzi</a></li>
+
+					
+					
+						<li><a href="https://www.znanylekarz.pl/uslugi-zabiegi"  class="text-placeholder">Usługi i zabiegi</a></li>
+
+
+						<li><a href="https://znanylekarz.zendesk.com/hc/pl"  class="text-placeholder">Pomoc</a></li>
+
+
+												<li><a href="https://www.znanylekarz.pl/aplikacja-pacjenta"  class="text-placeholder">Aplikacje mobilne</a></li>
+
+					
+												<li><a href="//www.znanylekarz.pl/blog/"  class="text-placeholder">Blog dla pacjentów</a></li>
+
+					
+					
+												<li><a href="https://badania.znanylekarz.pl/?utm_source=znanylekarz&amp;utm_medium=footer&amp;utm_campaign=badania" target="_blank" class="text-placeholder">Badania</a></li>
+
+					
+														</ul>
+			</aside>
+			<aside class="col-lg-3 col-md-6">
+				<div class="h4 text-muted">
+					Dla profesjonalistów
+				</div>
+
+				<ul class="list-unstyled text-list">
+
+											
+													<li>
+								<a
+									href="//pro.znanylekarz.pl/cennik/znanylekarz-dla-lekarzy?utm_source=MKTP&amp;utm_medium=referral&amp;utm_campaign=footer"
+									class="text-placeholder"
+									data-ga-event="click"
+									data-ga-category="visitDoctorZone"
+									data-ga-action="footer - pricelist"
+									data-ga-label="footer"
+								>
+									Cennik
+								</a>
+							</li>
+						
+													<li>
+								<a
+									href="//pro.znanylekarz.pl/produkty/oprogramowanie-medyczne/znanylekarz-dla-lekarzy?utm_source=MKTP&amp;utm_medium=referral&amp;utm_campaign=footer"
+									class="text-placeholder"
+									data-ga-event="click"
+									data-ga-category="visitDoctorZone"
+									data-ga-action="footer - doctorZone"
+									data-ga-label="footer"
+								>
+									Dla lekarzy
+								</a>
+							</li>
+						
+														<li><a href="//pro.znanylekarz.pl/baza-wiedzy/materialy/biblioteka/dla-lekarzy?utm_source=MKTP&amp;utm_medium=referral&amp;utm_campaign=footer"  class="text-placeholder">Baza wiedzy</a></li>
+
+						
+													<li>
+								<a
+									href="//pro.znanylekarz.pl/produkty/oprogramowanie-medyczne/znanylekarz-dla-placowek?utm_source=MKTP&amp;utm_medium=referral&amp;utm_campaign=footer"
+									class="text-placeholder"
+									data-ga-event="click"
+									data-ga-category="visitFacilityZone"
+									data-ga-action="footer - facilityZone"
+									data-ga-label="footer"
+								>
+									Dla placówek medycznych
+								</a>
+							</li>
+						
+													<li>
+								<a
+									href="//help.docplanner.com/pl/professionals"
+									class="text-placeholder"
+									data-ga-event="click"
+									data-ga-category="footerHelpCenter"
+									data-ga-action="click"
+								>
+									Centrum Pomocy dla Specjalisty
+								</a>
+							</li>
+						
+							<li><a href="https://www.znanylekarz.pl/link"  class="text-placeholder">Widget na stronę</a></li>
+
+
+																																	
+							<li><a href="https://pro.znanylekarz.pl/produkty/glowne-funkcjonalnosci/konsultacje-online?utm_source=MKTP&amp;utm_medium=referral&amp;utm_campaign=footer" 
+							data-ga-event="click"
+							data-ga-category="visitDoctorZone"
+							data-ga-action="footer - video consultations"
+							data-ga-label="footer"
+							 class="text-placeholder">Konsultacje online <span class="badge bg-calm-light">nowość</span></a></li>
+
+					
+									</ul>
+			</aside>
+			<aside class="col-lg-3 col-md-6">
+				<div class="mt-2 d-sm-none"></div>
+				<a href="/" class="small default h4 mx-auto mx-sm-0 mb-1"
+				   data-lazyload-class="logo-zl"
+				></a>
+				<address>
+					ZnanyLekarz Sp. z o.o.<br/>
+					ul. Kolejowa 5/7<br/>
+					01-217 Warszawa, Polska
+											<br><br/>NIP: 7010224868<br />
+KRS: 0000347997<br />
+REGON: 142276657<br />
+<br />
+Sąd Rejonowy dla m.st. Warszawy w Warszawie XII Wydział Gospodarczy KRS<br />
+
+														</address>
+				<ul class="list-inline">
+																		<li class="list-inline-item">
+								<a target="_blank" rel="me" href="https://www.facebook.com/ZnanyLekarz">
+									<i class="svg-icon svg-icon-facebook-circle svg-icon-size-32 svg-icon-color-gray-300" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95Z"/></svg></i>
+								</a>
+							</li>
+																																																																																																																																								</ul>
+
+			</aside>
+		</div>
+
+		<hr class="my-3">
+
+		<div>
+			<p class="text-center">
+				<a href="https://www.znanylekarz.pl" target="_blank">Polska</a>,
+				<a href="https://www.doktortakvimi.com" target="_blank">Türkiye</a>,
+				<a href="https://www.doctoralia.es" target="_blank">España</a>,
+				<a href="https://www.miodottore.it" target="_blank">Italia</a>,
+				<a href="https://www.jameda.de" target="_blank">Deutschland</a>,
+				<a href="https://www.znamylekar.cz" target="_blank">Česko</a>,
+				<a href="https://www.doctoralia.com.pt" target="_blank">Portugal</a>,
+				<a href="https://www.doctoralia.com.mx" target="_blank">México</a>,
+				<a href="https://www.doctoralia.cl" target="_blank">Chile</a>,
+				<a href="https://www.doctoralia.com.br" target="_blank">Brasil</a>,
+				<a href="https://www.doctoraliar.com" target="_blank">Argentina</a>,
+				<a href="https://www.doctoralia.pe" target="_blank">Perú</a>,
+				<a href="https://www.doctoralia.co" target="_blank">Colombia</a>
+			</p>
+			<p class="text-center">
+				www.znanylekarz.pl &copy; 2022 -
+				Znajdź lekarza i umów wizytę
+			</p>
+
+			
+			
+		</div>
+	</div>
+
+	</footer>
+	
+	
+		
+	
+					<script src="//platform.docplanner.com/js/goro-homepage-0eb2ee80.js"></script>
+	
+						<script>
+        !function(){var e=document.createElement("script");if(!("noModule"in e)&&"onbeforeload"in e){var t=!1;document.addEventListener("beforeload",function(n){if(n.target===e)t=!0;else if(!n.target.hasAttribute("nomodule")||!t)return;n.preventDefault()},!0),e.type="module",e.src=".",document.head.appendChild(e),e.remove()}}();
+		</script>
+
+					<script type="module" src="//platform.docplanner.com/js/jade-polyfills-modern-e812da3d.js"></script>
+					<script type="module" src="//platform.docplanner.com/js/runtime-modern-2f5745aa.js"></script>
+					<script type="module" src="//platform.docplanner.com/js/jade-app-modern-18c57d69.js"></script>
+		
+					<script nomodule defer="defer" src="//platform.docplanner.com/js/jade-polyfills-older-0f4a77a7.js"></script>
+					<script nomodule defer="defer" src="//platform.docplanner.com/js/runtime-older-ff4ddcb4.js"></script>
+					<script nomodule defer="defer" src="//platform.docplanner.com/js/jade-app-older-dddd105d.js"></script>
+			
+			<script type="text/javascript">
+	function downloadJSAtOnload() {
+      var event;
+      if(typeof(Event) === 'function') {
+        event = new Event('deferLoading');
+      } else {
+        event = document.createEvent('Event');
+        event.initEvent('deferLoading', true, true);
+      }
+      document.dispatchEvent(event);
+	}
+
+	// Check for browser support of event handling capability
+	if (window.addEventListener)
+		window.addEventListener("load", downloadJSAtOnload, false);
+	else if (window.attachEvent)
+		window.attachEvent("onload", downloadJSAtOnload);
+	else window.onload = downloadJSAtOnload;
+</script>
+	
+</body>
+</html>
